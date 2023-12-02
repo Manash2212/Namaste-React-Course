@@ -1,0 +1,52 @@
+🔰Episode-1
+
+ 🔆Part-1
+   💫what is all this thing are? document, createElement, getElementById
+    ans : This is part of DOM (Document Object Model), Browser can Easyly Understand all this thing Because Browser has  inbuilt javascript Engine itself.
+
+ 🔆Part-2 (Adding CDN Link in HTML file)
+   💫What is CDN ?
+    ans :- CDN = Content Devivery Network. 
+    That means CDN is a Place where React are Hosted
+
+   💫What is CrossOrigin ?
+    ans :- CORS (Cross-Origin-Resource-Sharing) is a HTTP feature that Enables a Web Application running Under the One Domain to access the Resource from another Domain.
+
+ 🔆Part-3 (Implementing React in HTML using CDN within Separate App.js javascript File) 
+    const heading = React.createElement("h1", {}, "Hello world form React!");
+    🔷Note : Here React.createElement() takes # attributes. 1.HTML Tag name, 2.HTML attributes, 3.Data Inside the Tag.
+
+    console.log(heading); 💫#It Returns Nothing But a Object.
+
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading); 💫#Here render Mehtod Basically rendaring the Object to the Dom as a HTML Format.
+
+🔆Part-4 (Create Nested Component using React.createElement)
+
+    const parent = React.createElement("div", { id: "parent" }, [
+      React.createElement("div", { id: "child1" }, [
+        React.createElement("h1", {}, "This First Children of First Child"),
+        React.createElement("h2", {}, "This Secound Children of First Child"),
+      ]),
+    
+      React.createElement("div", { id: "child2" }, [
+        React.createElement("h1", {}, "This First Children of 2nd Child"),
+        React.createElement("h2", {}, "This Secound Children of 2nd Child"),
+      ]),
+    ]);
+    console.log(parent);
+    
+    const render_root = ReactDOM.createRoot(document.getElementById("root1"));
+    
+    render_root.render(parent);
+
+    🔷Note:- render Mehtod not Only Render the Data it also replaces the existing Data inside the Tag.
+
+
+🔰Episode-2
+
+🔆
+🔰
+⚜
+💫
+🔷
