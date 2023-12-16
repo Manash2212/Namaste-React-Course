@@ -43,7 +43,143 @@
     🔷Note:- render Mehtod not Only Render the Data it also replaces the existing Data inside the Tag.
 
 
+
+
 🔰Episode-2
+
+    🔆Part-1
+      💫What is npm ? 
+        ans :- Npm is a Packeg Maneger. Basically it's manages all the Packeges. npm is a command line that allows the developers to install the packages.
+
+     💫What is Packeg.json ?
+       ans :- Packeg.json is a Configuration for Npm.
+
+     💫What is Dependences ? 
+        ans :- A app runs on Lots of Packeges that Packeges are Called Dependences.
+
+     💫What is Bundler ? 
+       ans :- A Bundler is a tool that takes all the javascript code, along with any other assets like CSS or Images and Combine the Large file into a single file which can serve to the Browser. There are some Popular Bundlers are :- Webpack , parcel, vite, Roll up etc.
+
+     💫Why we use Bundler ? 
+      ans :- The purpose of using Bundler is to organize module and dependencies, Optimise website Performance, and reducet the file size.
+     
+     💫What is the Difference between dependencies and devDependencies ?
+      ans :-
+     
+     💫What is the package-Lock.json ? 
+      ans :- The package-Lock.json file is a lock File that tracks the exact version numbers of the dependencies and the packages for the curent projcet.
+
+     💫What if we delete Packeg-lock.json file ?
+      ans :- If we Delete Packeg-lock.json file then, npm will go through the requirements and install the package version again.
+
+     💫What is node_modules ?
+      ans :- node_modules is like a Database, the node_modules directory contain all the data of dependencies and the packages to build and run the projcet.
+
+     💫What is transsitive dependencies?
+      ans :- Like a Examples, Our projcet need dependencies like parcel and parcel as a projcet has their own Dependences and those dependencies can have their own dependencies and this is known as a transsitive dependency.
+
+     💫- What is `.gitignore`? What should we add and not add into it?
+      ans :- .gitignore is file where we basically declare what not to push to the repository.
+      we should add /node_modules into .gitignore
+
+
+
+     💫 "parcel": "^2.10.3" or "parcel": "`~`2.10.3" Here what is the  (^)Caret and (~)tilde before the version?
+     ans :- (^)Caret - Means If there is Minor Update, then the version will do Automatically, and the 
+     (~)tilde - Means If there is Major Update, then the version will do Automatically. 
+
+    🔆Part-2
+
+     💫What is the Difference between npm and npx?
+
+
+     💫What is .parcel-cache ?
+      ans :- .cache folder stored the information about our projcet when parcel builds it, so that it doesn't have to re-analyze everyhthing form scratch. It's a key reson why parcel can be so fast in Development mode.
+      
+     💫 List down some superpowers of Parcel.
+        -Dev build
+        -Local Server
+        -HMR = Hot Module Replacement
+        -File Watching Algorithm -> Written in C++
+        -Caching -> Faster builds
+        -Image Optimiazation
+        -Minification
+        -Bundling
+        -Compress
+        -Consistent Hashing
+        -Code Spliting
+        -Differential Bundling -> Support Older Browser
+        -Diagonostic
+        -Error Handling
+        -HTTPS
+        -Tree Shaking -> Remove unused Code
+        -Different dev and production Bundleing.
+
+     💫What is Tree Shaking?
+      ans :- In Production build, Parcel statically analyzes improt and export of each module, and removes everyhthing that isn't used, This is Called "Tree Shaking" or "dead Code Elimination" 
+
+     💫What is Scope Hoisting?
+      ans :- Parcel also Concatinates the modules into a single scope when it is Possible, rather then wrapping each module into a separate function. This is called "Scope Hoisting". This improves the Minification, more Effective and also improves runtime Performance.
+
+     💫 What is Hot Module Replacement?
+      ans :- As we make Change to our Code, Parcel Automatically rebuilds the Change files and Updates our app into  the Browser, By default Parcel fully refresh the page, but Some Cases it Perform HMR(Hot Module Replacement) , HMR  improves the Development Experience by Updating Module in the Browser at runtime without needing whole Page refresh. That means the Application State Can be retain as we change some small things in our Code. 
+
+
+     💫 What is the `dist` folder?
+      ans :- Parcel set the Location Where compiled bundles files will be stored, by default is 'dist' folder.
+
+     💫What is `browserlists`?
+       ans :- When we are adding browserlists in Our Project that means, in which version of Browser our app will run.
+        🔷Example :- In Package.json ->
+         "browserlist" : {
+          "last 2 versions" -->That Means my app Can Support at last 2 Older version Also.
+        }
+
+     💫What is the code for Development version of parcel?
+      -Code : npx parcel index.html
+
+     💫What is the code for Production version of parcel?
+      -Code : npx parcel build index.html
+        🔷Note :- We have to Remove the main File (default : App.js) from the Packeg.json Before Compiliing Production version.
+
+
+
+🔰 Episodes -3
+
+     🔆What is JSX?
+      ans :- JSX stands for JavaScript XML and JSX is a Syntax extensions for JavaScript that lets you write HTML- like markup inside a JavaScript File. Basically it's just porvides syntactic sugar for the React.createElement(types, props, ...children) function. 
+
+     🔆What is React.createElement vs JSX?
+      ans :- React.createElement is a core React function , that creates React elements. JSX is a syntax extension that lets you wirte HTML -like Markup inside  JavaScript.
+
+     🔆What is Benefits of JSX?
+      ans :- Every React Developer Find JSX is Very helpful as Visual aid when Working with UI inside JavaScript Code. It allows React to Show More useful error and Warning messages.
+
+     🔆What is Behind the Scenes of JSX?
+      ans :- Step 1 : User Write the Codes In JSX 
+             Step 2 :and a Transpiler(Babel) transpile the Code into JavaScript that browsers will easyly understand.
+
+     🔆What is Babel & parcel role in JSX?
+      ans :- Babel basically transpile the JSX code into pure JavaScript that browsers can easyly understand
+
+     🔆What is Components?
+      ans :- A React Component is a JavaScript function that we can sprinkle with Markup. Component can be as small as Button, or as large as The Entier Page.  
+
+     🔆What is Functional Components?
+      ans :- A Functional Component is just a plain JavaScript function that accepts props as an arguments and returns a React element(JSX).
+
+     🔆What is Composing Components?
+      ans :- Like Using two Components into one and another, that is Called Components Composition. 
+
+
+
+
+
+
+
+
+
+
 
 🔆
 🔰

@@ -1,0 +1,48 @@
+🔰 Episodes - 4
+
+🔆What is Config Driven UI ?
+ ans :- Timeing 58.10 minutes left.
+
+🔆What is <React.Fragment></React.Fragment> and <></>?
+ ans :- React.Fragment that allows us to wrap or group muliple elements without adding Extra Node  to the DOM. This can be Very helpful when rendaring Multiple Child elements/Components inside a single Parent Component.
+
+ <></> This is a Empty JSX tag as same as <React.Fragment></React.Fragment> .
+
+🔆What is Virtual DOM?
+ ans :- The virtual DOM is Programming Concept Where an ideal or virtual Representation of a UI is Kept in a Memory and synced with  the "real" DOM by a Library Such as React DOM.
+  And this Process is Called "RECONSILATION".
+
+🔆Is Shadow DOM same as the virtual DOM ?
+ ans :-  No, Shadow DOM is browsers technology designed primarily for scopping variables and CSS web Components. The Virtual DOM  is a Concept implemented by libraries in JavaScript on top of the browser APIs.
+
+🔆What is React Fiber?
+
+🔆Why we need keys in React? When do we need keys in React?
+
+🔆Can we use index as keys in React?
+
+🔆What is props in React? Ways to
+
+🔆What is a Config Driven UI ?
+ ans :- The UI id Driven by the Config which is diriven by the  Backend. 
+  Like Example :- Zomato, Swiggy, Amazon.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔆
+🔰
+⚜
+💫
+🔷

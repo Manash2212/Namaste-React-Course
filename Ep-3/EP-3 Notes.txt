@@ -1,0 +1,35 @@
+🔰 Episodes -3
+
+     🔆What is JSX?
+      ans :- JSX stands for JavaScript XML and JSX is a Syntax extensions for JavaScript that lets you write HTML- like markup inside a JavaScript File. Basically it's just porvides syntactic sugar for the React.createElement(types, props, ...children) function. 
+
+     🔆What is React.createElement vs JSX?
+      ans :- React.createElement is a core React function , that creates React elements. JSX is a syntax extension that lets you wirte HTML -like Markup inside  JavaScript.
+
+     🔆What is Benefits of JSX?
+      ans :- Every React Developer Find JSX is Very helpful as Visual aid when Working with UI inside JavaScript Code. It allows React to Show More useful error and Warning messages.
+
+     🔆What is Behind the Scenes of JSX?
+      ans :- Step 1 : User Write the Codes In JSX 
+             Step 2 :and a Transpiler(Babel) transpile the Code into JavaScript that browsers will easyly understand.
+
+     🔆What is Babel & parcel role in JSX?
+      ans :- Babel basically transpile the JSX code into pure JavaScript that browsers can easyly understand
+
+     🔆What is Components?
+      ans :- A React Component is a JavaScript function that we can sprinkle with Markup. Component can be as small as Button, or as large as The Entier Page.  
+
+     🔆What is Functional Components?
+      ans :- A Functional Component is just a plain JavaScript function that accepts props as an arguments and returns a React element(JSX).
+
+     🔆What is Composing Components?
+      ans :- Like Using two Components into one and another, that is Called Components Composition. 
+
+
+
+
+🔆
+🔰
+⚜
+💫
+🔷
