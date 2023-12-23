@@ -1,589 +1,172 @@
 [
   {
     "card": {
-      "card": {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        "info": {
-          "id": "176219",
-          "name": "Moghal Empire Restaurant",
-          "cloudinaryImageId": "adj3aertyghemumjfuvg",
-          "locality": "Howrah",
-          "areaName": "Shibpur",
-          "costForTwo": "₹200 for two",
-          "cuisines": ["Biryani", "North Indian", "Mughlai", "Chinese"],
-          "avgRating": 4,
-          "feeDetails": {
-            "restaurantId": "176219",
-            "fees": [
-              {
-                "name": "BASE_TIME"
-              },
-              {
-                "name": "BASE_DISTANCE",
-                "fee": 11400
-              },
-              {
-                "name": "ANCILLARY_SURGE_FEE"
-              }
-            ],
-            "totalFee": 11400
-          },
-          "parentId": "472585",
-          "avgRatingString": "4.0",
-          "totalRatingsString": "10K+",
-          "promoted": true,
-          "adTrackingId": "cid=9804416~p=1~eid=0000018c-4585-1c06-0007-a38e00df0175~srvts=1701973400582~80452",
-          "sla": {
-            "deliveryTime": 78,
-            "lastMileTravel": 9.8,
-            "serviceability": "SERVICEABLE",
-            "slaString": "78 mins",
-            "lastMileTravelString": "9.8 km",
-            "iconType": "ICON_TYPE_EMPTY"
-          },
-          "availability": {
-            "nextCloseTime": "2023-12-08 00:00:00",
-            "opened": true
-          },
-          "badges": {},
-          "isOpen": true,
-          "aggregatedDiscountInfoV2": {},
-          "type": "F",
-          "badgesV2": {
-            "entityBadges": {
-              "textExtendedBadges": {},
-              "textBased": {},
-              "imageBased": {}
-            }
-          },
-          "orderabilityCommunication": {
-            "title": {},
-            "subTitle": {},
-            "message": {},
-            "customIcon": {}
-          },
-          "differentiatedUi": {
-            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            "differentiatedUiMediaDetails": {
-              "maxDuration": "3000",
-              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-              "lottie": {},
-              "video": {}
-            }
-          },
-          "reviewsSummary": {},
-          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-          "link": "swiggy://menu?restaurant_id=176219&source=collection&query=kebab",
-          "text": "RESTAURANT_MENU",
-          "type": "DEEPLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_Contextual"
-      },
-      "relevance": {
-        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-        "sectionId": "MENU_RETURN_FOOD"
+      "info": {
+        "id": "176219",
+        "name": "Moghal Empire Restaurant",
+        "cloudinaryImageId": "adj3aertyghemumjfuvg",
+        "locality": "Howrah",
+        "areaName": "Shibpur",
+        "costForTwo": "₹200 for two",
+        "cuisines": ["Biryani", "North Indian", "Mughlai", "Chinese"],
+        "avgRating": 4,
+        "parentId": "472585",
+        "avgRatingString": "4.0",
+        "totalRatingsString": "10K+",
+        "sla": {
+          "deliveryTime": 78,
+          "lastMileTravel": 9.8,
+          "serviceability": "SERVICEABLE",
+          "slaString": "78 mins",
+          "lastMileTravelString": "9.8 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        }
       }
     }
   },
   {
     "card": {
-      "card": {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        "info": {
-          "id": "26507",
-          "name": "Diamond Hotel and Restaurant",
-          "cloudinaryImageId": "lxyw9jyvyfkqlgvm0hlf",
-          "locality": "Near Digha Bus Stop",
-          "areaName": "Mali Panchghara",
-          "costForTwo": "₹500 for two",
-          "cuisines": ["Indian", "Chinese"],
-          "avgRating": 3.8,
-          "feeDetails": {
-            "restaurantId": "26507",
-            "fees": [
-              {
-                "name": "BASE_TIME"
-              },
-              {
-                "name": "BASE_DISTANCE",
-                "fee": 11400
-              },
-              {
-                "name": "ANCILLARY_SURGE_FEE"
-              }
-            ],
-            "totalFee": 11400
-          },
-          "parentId": "2826",
-          "avgRatingString": "3.8",
-          "totalRatingsString": "5K+",
-          "sla": {
-            "deliveryTime": 73,
-            "lastMileTravel": 9.5,
-            "serviceability": "SERVICEABLE",
-            "slaString": "73 mins",
-            "lastMileTravelString": "9.5 km",
-            "iconType": "ICON_TYPE_EMPTY"
-          },
-          "availability": {
-            "nextCloseTime": "2023-12-07 23:59:00",
-            "opened": true
-          },
-          "badges": {},
-          "isOpen": true,
-          "aggregatedDiscountInfoV2": {},
-          "type": "F",
-          "badgesV2": {
-            "entityBadges": {
-              "textBased": {},
-              "imageBased": {},
-              "textExtendedBadges": {}
-            }
-          },
-          "orderabilityCommunication": {
-            "title": {},
-            "subTitle": {},
-            "message": {},
-            "customIcon": {}
-          },
-          "differentiatedUi": {
-            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            "differentiatedUiMediaDetails": {
-              "maxDuration": "3000",
-              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-              "lottie": {},
-              "video": {}
-            }
-          },
-          "reviewsSummary": {},
-          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-          "link": "swiggy://menu?restaurant_id=26507&source=collection&query=kebab",
-          "text": "RESTAURANT_MENU",
-          "type": "DEEPLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_Contextual"
-      },
-      "relevance": {
-        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-        "sectionId": "MENU_RETURN_FOOD"
+      "info": {
+        "id": "26507",
+        "name": "Diamond Hotel and Restaurant",
+        "cloudinaryImageId": "lxyw9jyvyfkqlgvm0hlf",
+        "locality": "Near Digha Bus Stop",
+        "areaName": "Mali Panchghara",
+        "costForTwo": "₹500 for two",
+        "cuisines": ["Indian", "Chinese"],
+        "avgRating": 3.8,
+        "avgRatingString": "3.8",
+        "totalRatingsString": "5K+",
+        "sla": {
+          "deliveryTime": 73,
+          "lastMileTravel": 9.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "73 mins",
+          "lastMileTravelString": "9.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        }
       }
     }
   },
   {
     "card": {
-      "card": {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        "info": {
-          "id": "224452",
-          "name": "Behrouz Biryani",
-          "cloudinaryImageId": "89fccaa76f2f760e2742b9e53d32bb69",
-          "locality": "HOWRAH",
-          "areaName": "Mali Panchghara",
-          "costForTwo": "₹500 for two",
-          "cuisines": [
-            "Biryani",
-            "Mughlai",
-            "North Indian",
-            "Lucknowi",
-            "Hyderabadi",
-            "Kebabs",
-            "Desserts",
-            "Beverages"
-          ],
-          "avgRating": 4.3,
-          "feeDetails": {
-            "restaurantId": "224452",
-            "fees": [
-              {
-                "name": "BASE_DISTANCE",
-                "fee": 13600
-              },
-              {
-                "name": "BASE_TIME"
-              },
-              {
-                "name": "ANCILLARY_SURGE_FEE"
-              }
-            ],
-            "totalFee": 13600
-          },
-          "parentId": "1803",
-          "avgRatingString": "4.3",
-          "totalRatingsString": "1K+",
-          "sla": {
-            "deliveryTime": 77,
-            "lastMileTravel": 10.5,
-            "serviceability": "SERVICEABLE",
-            "slaString": "77 mins",
-            "lastMileTravelString": "10.5 km",
-            "iconType": "ICON_TYPE_EMPTY"
-          },
-          "availability": {
-            "nextCloseTime": "2023-12-07 23:59:00",
-            "opened": true
-          },
-          "badges": {
-            "imageBadges": [
-              {
-                "imageId": "newg.png",
-                "description": "Gourmet"
-              }
-            ]
-          },
-          "isOpen": true,
-          "type": "F",
-          "badgesV2": {
-            "entityBadges": {
-              "textBased": {},
-              "imageBased": {
-                "badgeObject": [
-                  {
-                    "attributes": {
-                      "description": "Gourmet",
-                      "imageId": "newg.png"
-                    }
-                  }
-                ]
-              },
-              "textExtendedBadges": {}
-            }
-          },
-          "aggregatedDiscountInfoV3": {
-            "header": "₹125 OFF",
-            "subHeader": "ABOVE ₹399",
-            "discountTag": "FLAT DEAL"
-          },
-          "orderabilityCommunication": {
-            "title": {},
-            "subTitle": {},
-            "message": {},
-            "customIcon": {}
-          },
-          "differentiatedUi": {
-            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            "differentiatedUiMediaDetails": {
-              "maxDuration": "3000",
-              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-              "lottie": {},
-              "video": {}
-            }
-          },
-          "reviewsSummary": {},
-          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-          "link": "swiggy://menu?restaurant_id=224452&source=collection&query=kebab",
-          "text": "RESTAURANT_MENU",
-          "type": "DEEPLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_Contextual"
-      },
-      "relevance": {
-        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-        "sectionId": "MENU_RETURN_FOOD"
+      "info": {
+        "id": "224452",
+        "name": "Behrouz Biryani",
+        "cloudinaryImageId": "89fccaa76f2f760e2742b9e53d32bb69",
+        "locality": "HOWRAH",
+        "areaName": "Mali Panchghara",
+        "costForTwo": "₹500 for two",
+        "cuisines": [
+          "Biryani",
+          "Mughlai",
+          "North Indian",
+          "Lucknowi",
+          "Hyderabadi",
+          "Kebabs",
+          "Desserts",
+          "Beverages"
+        ],
+        "avgRating": 4.3,
+        "avgRatingString": "4.3",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 77,
+          "lastMileTravel": 10.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "77 mins",
+          "lastMileTravelString": "10.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        }
       }
     }
   },
   {
     "card": {
-      "card": {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        "info": {
-          "id": "224457",
-          "name": "The Biryani Life",
-          "cloudinaryImageId": "wewpwj9siqnt68o0d544",
-          "locality": "HOWRAH",
-          "areaName": "Mali Panchghara",
-          "costForTwo": "₹250 for two",
-          "cuisines": [
-            "Biryani",
-            "Mughlai",
-            "Lucknowi",
-            "Hyderabadi",
-            "North Indian",
-            "Kebabs",
-            "Desserts",
-            "Beverages"
-          ],
-          "avgRating": 3.8,
-          "feeDetails": {
-            "restaurantId": "224457",
-            "fees": [
-              {
-                "name": "BASE_DISTANCE",
-                "fee": 12900
-              },
-              {
-                "name": "BASE_TIME"
-              },
-              {
-                "name": "ANCILLARY_SURGE_FEE"
-              }
-            ],
-            "totalFee": 12900
-          },
-          "parentId": "8496",
-          "avgRatingString": "3.8",
-          "totalRatingsString": "1K+",
-          "sla": {
-            "deliveryTime": 79,
-            "lastMileTravel": 10.5,
-            "serviceability": "SERVICEABLE",
-            "slaString": "79 mins",
-            "lastMileTravelString": "10.5 km",
-            "iconType": "ICON_TYPE_EMPTY"
-          },
-          "availability": {
-            "nextCloseTime": "2023-12-07 23:59:00",
-            "opened": true
-          },
-          "badges": {},
-          "isOpen": true,
-          "type": "F",
-          "badgesV2": {
-            "entityBadges": {
-              "textExtendedBadges": {},
-              "textBased": {},
-              "imageBased": {}
-            }
-          },
-          "aggregatedDiscountInfoV3": {
-            "header": "₹125 OFF",
-            "subHeader": "ABOVE ₹399",
-            "discountTag": "FLAT DEAL"
-          },
-          "orderabilityCommunication": {
-            "title": {},
-            "subTitle": {},
-            "message": {},
-            "customIcon": {}
-          },
-          "differentiatedUi": {
-            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            "differentiatedUiMediaDetails": {
-              "maxDuration": "3000",
-              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-              "lottie": {},
-              "video": {}
-            }
-          },
-          "reviewsSummary": {},
-          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-          "link": "swiggy://menu?restaurant_id=224457&source=collection&query=kebab",
-          "text": "RESTAURANT_MENU",
-          "type": "DEEPLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_Contextual"
-      },
-      "relevance": {
-        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-        "sectionId": "MENU_RETURN_FOOD"
+      "info": {
+        "id": "224457",
+        "name": "The Biryani Life",
+        "cloudinaryImageId": "wewpwj9siqnt68o0d544",
+        "locality": "HOWRAH",
+        "areaName": "Mali Panchghara",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+          "Biryani",
+          "Mughlai",
+          "Lucknowi",
+          "Hyderabadi",
+          "North Indian",
+          "Kebabs",
+          "Desserts",
+          "Beverages"
+        ],
+        "avgRating": 3.8,
+        "avgRatingString": "3.8",
+        "totalRatingsString": "1K+",
+        "sla": {
+          "deliveryTime": 79,
+          "lastMileTravel": 10.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "79 mins",
+          "lastMileTravelString": "10.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        }
       }
     }
   },
   {
     "card": {
-      "card": {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        "info": {
-          "id": "575155",
-          "name": "Mehfil by Behrouz",
-          "cloudinaryImageId": "2b579171cefc545ce6479e21c0016798",
-          "locality": "HOWRAH",
-          "areaName": "Mali Panchghara",
-          "costForTwo": "₹700 for two",
-          "cuisines": [
-            "Biryani",
-            "Mughlai",
-            "Lucknowi",
-            "Hyderabadi",
-            "Desserts",
-            "Beverages"
-          ],
-          "avgRating": 4,
-          "feeDetails": {
-            "restaurantId": "575155",
-            "fees": [
-              {
-                "name": "BASE_TIME"
-              },
-              {
-                "name": "BASE_DISTANCE",
-                "fee": 12900
-              },
-              {
-                "name": "ANCILLARY_SURGE_FEE"
-              }
-            ],
-            "totalFee": 12900
-          },
-          "parentId": "344904",
-          "avgRatingString": "4.0",
-          "totalRatingsString": "20+",
-          "sla": {
-            "deliveryTime": 76,
-            "lastMileTravel": 10.5,
-            "serviceability": "SERVICEABLE",
-            "slaString": "76 mins",
-            "lastMileTravelString": "10.5 km",
-            "iconType": "ICON_TYPE_EMPTY"
-          },
-          "availability": {
-            "nextCloseTime": "2023-12-07 23:59:00",
-            "opened": true
-          },
-          "badges": {},
-          "isOpen": true,
-          "type": "F",
-          "badgesV2": {
-            "entityBadges": {
-              "textExtendedBadges": {},
-              "textBased": {},
-              "imageBased": {}
-            }
-          },
-          "aggregatedDiscountInfoV3": {
-            "header": "₹125 OFF",
-            "subHeader": "ABOVE ₹599",
-            "discountTag": "FLAT DEAL"
-          },
-          "orderabilityCommunication": {
-            "title": {},
-            "subTitle": {},
-            "message": {},
-            "customIcon": {}
-          },
-          "differentiatedUi": {
-            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            "differentiatedUiMediaDetails": {
-              "maxDuration": "3000",
-              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-              "lottie": {},
-              "video": {}
-            }
-          },
-          "reviewsSummary": {},
-          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-          "link": "swiggy://menu?restaurant_id=575155&source=collection&query=kebab",
-          "text": "RESTAURANT_MENU",
-          "type": "DEEPLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_Contextual"
-      },
-      "relevance": {
-        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-        "sectionId": "MENU_RETURN_FOOD"
+      "info": {
+        "id": "575155",
+        "name": "Mehfil by Behrouz",
+        "cloudinaryImageId": "2b579171cefc545ce6479e21c0016798",
+        "locality": "HOWRAH",
+        "areaName": "Mali Panchghara",
+        "costForTwo": "₹700 for two",
+        "cuisines": [
+          "Biryani",
+          "Mughlai",
+          "Lucknowi",
+          "Hyderabadi",
+          "Desserts",
+          "Beverages"
+        ],
+        "avgRating": 4,
+        "avgRatingString": "4.0",
+        "totalRatingsString": "20+",
+        "sla": {
+          "deliveryTime": 76,
+          "lastMileTravel": 10.5,
+          "serviceability": "SERVICEABLE",
+          "slaString": "76 mins",
+          "lastMileTravelString": "10.5 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        }
       }
     }
   },
   {
     "card": {
-      "card": {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-        "info": {
-          "id": "751444",
-          "name": "MAA KI SIGDI",
-          "cloudinaryImageId": "0ad70c0cd50fdd66243f9d408a2c5ff4",
-          "locality": "Salkia",
-          "areaName": "Howrah",
-          "costForTwo": "₹200 for two",
-          "cuisines": ["North Indian", "Chinese", "Biryani", "Tandoor"],
-          "avgRating": 4.6,
-          "feeDetails": {
-            "restaurantId": "751444",
-            "fees": [
-              {
-                "name": "BASE_DISTANCE",
-                "fee": 14400
-              },
-              {
-                "name": "BASE_TIME"
-              },
-              {
-                "name": "ANCILLARY_SURGE_FEE"
-              }
-            ],
-            "totalFee": 14400
-          },
-          "parentId": "444956",
-          "avgRatingString": "4.6",
-          "totalRatingsString": "10+",
-          "sla": {
-            "deliveryTime": 80,
-            "lastMileTravel": 11.4,
-            "serviceability": "SERVICEABLE",
-            "slaString": "80 mins",
-            "lastMileTravelString": "11.4 km",
-            "iconType": "ICON_TYPE_EMPTY"
-          },
-          "availability": {
-            "nextCloseTime": "2023-12-08 01:00:00",
-            "opened": true
-          },
-          "badges": {},
-          "isOpen": true,
-          "type": "F",
-          "badgesV2": {
-            "entityBadges": {
-              "textExtendedBadges": {},
-              "textBased": {},
-              "imageBased": {}
-            }
-          },
-          "aggregatedDiscountInfoV3": {
-            "header": "30% OFF",
-            "subHeader": "UPTO ₹150",
-            "discountTag": "SAVE BIG"
-          },
-          "orderabilityCommunication": {
-            "title": {},
-            "subTitle": {},
-            "message": {},
-            "customIcon": {}
-          },
-          "differentiatedUi": {
-            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-            "differentiatedUiMediaDetails": {
-              "maxDuration": "3000",
-              "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-              "lottie": {},
-              "video": {}
-            }
-          },
-          "reviewsSummary": {},
-          "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-          "isNewlyOnboarded": true,
-          "restaurantOfferPresentationInfo": {}
-        },
-        "analytics": {},
-        "cta": {
-          "link": "swiggy://menu?restaurant_id=751444&source=collection&query=kebab",
-          "text": "RESTAURANT_MENU",
-          "type": "DEEPLINK"
-        },
-        "widgetId": "collectionV5RestaurantListWidget_Contextual"
-      },
-      "relevance": {
-        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
-        "sectionId": "MENU_RETURN_FOOD"
+      "info": {
+        "id": "751444",
+        "name": "MAA KI SIGDI",
+        "cloudinaryImageId": "0ad70c0cd50fdd66243f9d408a2c5ff4",
+        "locality": "Salkia",
+        "areaName": "Howrah",
+        "costForTwo": "₹200 for two",
+        "cuisines": ["North Indian", "Chinese", "Biryani", "Tandoor"],
+        "avgRating": 4.6,
+        "parentId": "444956",
+        "avgRatingString": "4.6",
+        "totalRatingsString": "10+",
+        "sla": {
+          "deliveryTime": 80,
+          "lastMileTravel": 11.4,
+          "serviceability": "SERVICEABLE",
+          "slaString": "80 mins",
+          "lastMileTravelString": "11.4 km",
+          "iconType": "ICON_TYPE_EMPTY"
+        }
       }
     }
   }

@@ -1,7 +1,5 @@
 🔰 Episodes - 4
 
-🔆What is Config Driven UI ?
- ans :- Timeing 58.10 minutes left.
 
 🔆What is <React.Fragment></React.Fragment> and <></>?
  ans :- React.Fragment that allows us to wrap or group muliple elements without adding Extra Node  to the DOM. This can be Very helpful when rendaring Multiple Child elements/Components inside a single Parent Component.
@@ -15,18 +13,29 @@
 🔆Is Shadow DOM same as the virtual DOM ?
  ans :-  No, Shadow DOM is browsers technology designed primarily for scopping variables and CSS web Components. The Virtual DOM  is a Concept implemented by libraries in JavaScript on top of the browser APIs.
 
+🔆What is Reconciliation in React?
+ ans :- Reconciliation is a Process , which React updates the Browser DOM and Make React faster.
+ React would first calculate the difference between the Reacl DOM and Virtual DOM, react always stores a copy of Virtual DOM , when we make any Changes with our Data, React Creates a copy of the Virtual DOM and Compare it with the Previous Virtual DOM and This comparison done by Diffing Algorithm. Now React Compares the virtual DOM with the Real DOM, and It findOuts the Changes Node and Update only the Changed node in Real DOM and Leaving the rest node as it is, This Process is Called Reconciliation.
+
 🔆What is React Fiber?
+ ans :- React Fiber is a new Reconciliation Engine which has introduced in React 16, 
+  The main purpose of React Fiber is to increase it's Suitability for areas like animation, layout , gestures. React Fiber has special ability to pause, abort, and reuse the work.
 
 🔆Why we need keys in React? When do we need keys in React?
+ ans :- Keys helps React to identify which item have changed, or add or Removed.  A Key is a special attribute we should include when mapping over arrays to render Data.
 
 🔆Can we use index as keys in React?
+ ans :- Using index as keys is not Recommended as per React Doc. If the order of item's may change, This can negatively impact on performance and may Cause issue with Component State.
 
 🔆What is props in React? Ways to
+ ans :- React Components Use Props to comunicate each Other. Like , We can pass any types value to Child from Parent Using Props.
 
 🔆What is a Config Driven UI ?
  ans :- The UI id Driven by the Config which is diriven by the  Backend. 
   Like Example :- Zomato, Swiggy, Amazon.
 
+🔆What is Pure Function in React ?
+ ans :- When a function's return value is determined by its input value. and It's return value are always the same for the same Input Values.
 
 
 

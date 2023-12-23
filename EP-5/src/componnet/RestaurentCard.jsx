@@ -2,7 +2,7 @@ import React from "react";
 import { RestaurantImg } from "../utils/Constants";
 
 const RestaurentCard = ({ resData }) => {
-  const { slaString } = resData?.card.card.info.sla;
+  const { slaString } = resData?.card.info.sla;
 
   const {
     cloudinaryImageId,
@@ -13,7 +13,7 @@ const RestaurentCard = ({ resData }) => {
     cuisines,
     locality,
     areaName,
-  } = resData?.card.card.info;
+  } = resData?.card.info;
 
   return (
     <div className="res-card">

@@ -1,32 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import RestaurentCard from "./RestaurentCard";
 import ResData from "../utils/Data.json";
 
 const Body = () => {
-  const resNames = ResData[0].card.card.info.name;
-  // console.log(resNames);
-  // console.log(ResData);
-  // console.log(ResData[5].card.card.info.name);
+  let [ListOfRestaurent, setListOfRestaurent] = useState(ResData);
   return (
     <div className="main-res-container">
       <div className="search"> Search</div>
       <button
         className="filter-btn"
         onClick={() => {
-          ResData = ResData.filter((res) => {
-            res.card.card.info.avgRating >= 4;
-          });
-          console.log(ResData);
+          const filterdList = ListOfRestaurent.filter(
+            (res) => res.card.info.avgRatingString >= 4
+          );
+          setListOfRestaurent(filterdList);
         }}
       >
         TopRated Restaurent
       </button>
       <div className="res-container">
-        {ResData.map((restaurent) => (
-          <RestaurentCard
-            key={restaurent?.card.card.info.id}
-            resData={restaurent}
-          />
+        {ListOfRestaurent.map((restaurent) => (
+          <RestaurentCard key={restaurent?.card.info.id} resData={restaurent} />
         ))}
       </div>
     </div>
