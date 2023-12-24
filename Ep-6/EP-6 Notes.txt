@@ -1,0 +1,2 @@
+Separaion Of Concerns
+Single Responsibility Principal

@@ -1,7 +1,31 @@
 🔰 Episodes - 5
 
+    🔆What are JavaScript Modules ? 
+     ans :- JavaScript Modules allows us to break up our Code into Separate Files.
+        We can use One js File to another JavaScript File with the Help of Export import.
+
+    🔆What ids exprot in JavaScript modules?
+     ans :- In JavaScript modules export statement use to variables, function or class. which can be accesed to another file or Separate Files with the help of import statement.  
+
     🔆What is the difference between Named Export, Default export and * as export?
-     ans :-
+     ans :- 💫Named Export :- In JavaScript allow us to export muliple variables, function or class from a single file. In Named Export we use export statement before the variables, function or class
+      Example :- export const name = "Manash"
+       or 
+
+      exprot function MyName(name){
+        return name;
+      }
+      console.log(MyName(Manash))
+
+            💫 Default export :- In JavaScript allow us to export single value, function or class from a single file.
+      Example :-
+       const Header = ()=>{
+        return(
+            <h1>This is Simple Default Export</h1>
+        )
+       }
+    
+        export default Header;
      
     🔆 What is the importance of config.js file
      ans :-
