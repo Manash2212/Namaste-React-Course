@@ -8,7 +8,8 @@
      ans :- In JavaScript modules export statement use to variables, function or class. which can be accesed to another file or Separate Files with the help of import statement.  
 
     🔆What is the difference between Named Export, Default export and * as export?
-     ans :- 💫Named Export :- In JavaScript allow us to export muliple variables, function or class from a single file. In Named Export we use export statement before the variables, function or class
+     ans :- 
+     💫Named Export :- In JavaScript allow us to export muliple variables, function or class from a single file. In Named Export we use export statement before the variables, function or class
       Example :- export const name = "Manash"
        or 
 
@@ -17,7 +18,7 @@
       }
       console.log(MyName(Manash))
 
-            💫 Default export :- In JavaScript allow us to export single value, function or class from a single file.
+     💫 Default export :- In JavaScript allow us to export single value, function or class from a single file.
       Example :-
        const Header = ()=>{
         return(
@@ -28,13 +29,19 @@
         export default Header;
      
     🔆 What is the importance of config.js file
-     ans :-
+     ans :- Config.js allows developers to configure their applications in an XML block instead of hard-coding values inside their scripts or in JSON objects.
 
     🔆 What are React Hooks?
-     ans :-
+     ans :- React Hooks ware inrtoduced in React 16.8 in February 2019. This features are allow to developers to manage the State and lifecycle behavior of React Functional Component.
 
     🔆 Why do we need a useState Hook?
-     ans :-
+     ans :- useState Hook - Track the state of a Functional Component.
+     Example :- If you have a Component that needs to change their State based on the User Action, at that time you we use useState Hook to manage the state and re-render the Component when the State changes.
+
+     Example :-
+     First - import useState from "react" 
+
+     second - const [number, setNumber] = useState()
 
 
     Note1 : - React Element is Nothing but a Javascript Object 
