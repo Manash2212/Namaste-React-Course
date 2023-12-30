@@ -263,6 +263,39 @@
     🔷Hook: -When ever a State Variable Changes React re render the Component 
 
 
+🔰 Episodes - 6        '''''Exploring the world'''''
+
+
+🔆 What is a Microservice?
+ ans :- Microservice architecture treats each function of an application as an independent service that can be alerted, Updated, or taken down without affecting rest of the application. 
+
+  💫Benifits :- 
+     1)Better deploybility 
+     2)Comfortable for developer to understand
+     3)Better code Readability.
+     4)The application start faster.
+
+  💫Drawbacks :- 
+     1)Testing more Difficult acording to Monolith architecture.
+     2)Developer must deal with the additional complexity of creating a distributed system.
+
+🔆 What is Monolith architecture?
+ ans:- Monolith means composed all in one piece. A Monolith application describe a single-tired software application in which different components combined in to a single program from a single platform.
+
+  There is a Very famous quots is "Never Put all egs in one Busket" and Monolith does exact oposite things. 
+ Mono means : Single , and Lithc means : Stone
+ 
+  💫Benifits :- 
+     1)Simple to develop, 
+     2)Simple to test, 
+     3)Simple to deploy.
+
+  💫Drawbacks :-
+     1) Maintenance - If application to Large and complex to understand, then it will be chalenging to make changes fast and correctly.
+     2)The Size of the application can slow down the Start-up time.
+     3)On each update we have to Re-deploy the application.
+     4)Continuously Deployment is Difficult.
+
 
 
 
