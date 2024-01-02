@@ -1,0 +1,22 @@
+🔰 Episodes - 7
+
+    🔆How is useEffect Hook is Called
+     ans:- First useEffect take a callBack function and a Dependency array. 
+
+     💫Defination of useEffect is :- Every time the ccomponent Render useEffect will be called. But the dependency Array changes the behavior of it's Render.
+
+
+        1.If there is no dependency Array ==> useEffect call after every Render of that component.
+        2.If there is an Epmty dependency Array ==> useEffect call on initial Render of that component.
+            :- When the Page Loads then Component loads, when the Component loads or render then the useEffect is Called .
+        3.If there is an dependency Array with value ==> useEffect call on initial Render of that component and when the dependency [btn] is changed or updated .
+
+
+
+        
+
+🔆
+🔰
+⚜
+💫
+🔷
