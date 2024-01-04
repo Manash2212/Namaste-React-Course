@@ -11,9 +11,23 @@
             :- When the Page Loads then Component loads, when the Component loads or render then the useEffect is Called .
         3.If there is an dependency Array with value ==> useEffect call on initial Render of that component and when the dependency [btn] is changed or updated .
 
+    🔆What is useRouteError ?
+     ans :- It's a Hook which is Given to us by the React-router-dom.
+      using this hook, is give more information about this Error.
+      We can display Better Error Masage on our Page.
 
+    🔆What is Outlet ?
+     ans :- Outlet is React-router-dom component, Outlet should be used in parent route elements to render their child route elements.
+     Ex :- Whenever their is changes in the path the Outlet will filed with the children acording to the path.
 
-        
+    🔆Why we should never use <a> anchor </a> tag in react for Routing?
+     ans :- When we use the <a> anchor </a> tag in react for Routing the main Problem is the whole page get Refreshed. This Operation Basically Decrese the App Performance. 
+     Insted of <a> anchor </a> tag we should use LINK component from React-router-dom.
+
+    🔆How many types of routing prensent in web application?
+     ans :- There are two types of routing prensent in web application
+        1.Client site Routing
+        2.Server site Routing
 
 🔆
 🔰

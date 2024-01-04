@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    fetchData();
+  }, []);
+  const fetchData = async () => {
+    const data = await fetch(
+      "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.5867597&lng=88.4149401&restaurantId=10365&catalog_qa=undefined&submitAction=ENTER"
+    );
+    const json = await data.json();
+    console.log(json);
+  };
+
   return (
     <div>
       <h1>This is Namaste React Course Episode - 7</h1>

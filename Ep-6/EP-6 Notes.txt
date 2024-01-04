@@ -75,7 +75,7 @@ Single Responsibility Principal
     ans :- CORS :- Cors Origin Resource Sharing. is a Browser mechanism that allows user to access resources from outside of a given Domain.
 
    🔆 What is async and await?
-    ans :-
+    ans :- async await is a 
 
 
    🔆 What is the use of `const json = await data.json();` in getRestaurants()
