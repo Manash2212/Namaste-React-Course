@@ -29,6 +29,18 @@
         1.Client site Routing
         2.Server site Routing
 
+    🔆What is Client site Routing?
+     ans :=
+
+    🔆What is Server site Routing?
+     ans :- 
+    
+
+
+
+
+
+
 🔆
 🔰
 ⚜

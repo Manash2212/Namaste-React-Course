@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.header .logo-container {
+  display: inline;
+}
+.header .logo {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-items ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav-items ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.login {
+  margin: 20px 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* Body */
+
+.search {
+  text-align: center;
+}
+
+.res-card {
+  width: 280px;
+  min-height: 380px;
+  background-color: rgb(220, 216, 216);
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+
+.res-logo {
+  object-fit: contain;
+  object-position: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  box-shadow: 2px 2px 15px 1px #c8000099;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.res-card:hover {
+  cursor: pointer;
+  border: 0.5px solid rgb(106, 105, 105);
+  box-shadow: 1px 1px 8px 1px #000000b6;
+}
+
+.review-duretion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-delivery {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.company-container ul li {
+  padding-top: 5px;
+  list-style-type: none;
+}
+.contact-container ul li {
+  list-style-type: none;
+  padding-top: 5px;
+}
+
+.download-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-information img {
+  margin-top: 15px;
+  padding-top: 15px;
+  width: 150px;
+}
+
+/* .............Shimmer section Styling............ */
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.shimmer-card {
+  width: 280px;
+  min-height: 380px;
+  padding: 10px;
+  margin: 20px 0px;
+  background: linear-gradient(
+    to bottom right,
+    #f2f2f2 0%,
+    #f2f2f2 30%,
+    #d9d9d9 45%,
+    #d9d9d9 50%,
+    #f2f2f2 60%,
+    #f2f2f2 100%
+  );
+  animation-name: shimmer;
+  animation-duration: 5s;
+  /* animation-fill-mode: forwards; */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1200px 0;
+  }
+  100% {
+    background-position: 1200px 0;
+  }
+}
+
+/* User Styling */
+
+.user-container {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+/* .about-container {
+  border: 2px solid black;
+} */

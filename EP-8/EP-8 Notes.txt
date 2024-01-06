@@ -1,0 +1,28 @@
+🔰 Episodes - 8
+
+    🔆Why we don't use class based Component?
+
+    🔆What is the meaning of this line "class UserClass extends React.Component" ?
+     ans :-
+
+    🔆What is the meaning of " React.Component" ?
+     ans :-
+
+    🔆Why do we use super(props) in constructor ?
+     ans :-
+    
+    🔆What is componentDidMount, and why do we use it? 
+     ans :-
+    
+    🔆What is componentWillMount, and why do we use it?
+     ans :-
+
+
+
+
+
+🔆
+🔰
+⚜
+💫
+🔷
