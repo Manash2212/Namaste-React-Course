@@ -36,7 +36,12 @@
      ans :- 
     
 
-
+💥What i have Learned ?
+    
+    💠What is useState Hook and how it's work?
+     💠What is useEffect Hook and how it's work and Learned about useEffect dependencies?
+      💠React-roter-dom configuration and Routing One componnet to another component.
+       💠
 
 
 

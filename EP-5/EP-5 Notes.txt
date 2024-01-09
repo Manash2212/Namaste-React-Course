@@ -4,7 +4,7 @@
      ans :- JavaScript Modules allows us to break up our Code into Separate Files.
         We can use One js File to another JavaScript File with the Help of Export import.
 
-    🔆What ids exprot in JavaScript modules?
+    🔆What is exprot in JavaScript modules?
      ans :- In JavaScript modules export statement use to variables, function or class. which can be accesed to another file or Separate Files with the help of import statement.  
 
     🔆What is the difference between Named Export, Default export and * as export?

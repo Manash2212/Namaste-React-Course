@@ -8,7 +8,7 @@
        ans :- Packeg.json is a Configuration for Npm.
 
      💫What is Dependences ? 
-        ans :- A app runs on Lots of Packeges that Packeges are Called Dependences.
+        ans :- A app runs on Lots of Packeges that Packeges are Called Dependencies.
 
      💫What is Bundler ? 
        ans :- A Bundler is a tool that takes all the javascript code, along with any other assets like CSS or Images and Combine the Large file into a single file which can serve to the Browser. There are some Popular Bundlers are :- Webpack , parcel, vite, Roll up etc.

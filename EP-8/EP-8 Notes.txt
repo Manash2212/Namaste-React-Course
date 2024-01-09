@@ -8,6 +8,9 @@
     🔆What is the meaning of " React.Component" ?
      ans :-
 
+    🔆How to use props in Class Based Component ?
+     ans :-  
+
     🔆Why do we use super(props) in constructor ?
      ans :-
     
@@ -21,6 +24,15 @@
 
 
 
+
+💥What i have Learned ?
+
+    💠What is Class Based Component!
+     💠What is React.Component!
+       💠What is Super Props!
+         💠What is Constructor!
+           💠How to create one or  Mltiple State in Class Based Component!
+             💠
 🔆
 🔰
 ⚜

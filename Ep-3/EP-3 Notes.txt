@@ -15,6 +15,7 @@
 
      🔆What is Babel & parcel role in JSX?
       ans :- Babel basically transpile the JSX code into pure JavaScript that browsers can easyly understand
+       Parcel Analyze Our Project and Create bundles and Start a Development Server. It includes first-class Development Experience with First Refresh.
 
      🔆What is Components?
       ans :- A React Component is a JavaScript function that we can sprinkle with Markup. Component can be as small as Button, or as large as The Entier Page.  

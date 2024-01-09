@@ -1,0 +1,126 @@
+🔰Episode - 1
+
+    💥What i have Learned ?
+     
+     💠Javascript Method and Function - DOM concept Like [document.createElement():Method, getElementById()function]
+      💠React CDN Link and How To add CDN link in HTML.
+       💠What is CROS Origin.
+        💠How create React component in Javascript File with Out Use "npm install React". 
+         💠How to Render Data in web page.
+
+
+🔰Episode - 2
+
+    💥What i have Learned ?
+     
+     💠What is npm.
+      💠What is Package.Json.
+       💠What is Dependencies.
+        💠Difference between dependencies and devDependencies.          *
+         💠What is Bundler.
+          💠What is Packege-lock.json.
+           💠What is node-modules.
+            💠What is transsitive Dependencies.
+             💠What is .gitignore file. 
+              💠What is parcel.
+               💠Difference between npm and npx.            *
+              💠What is parcel.cache.
+             💠Super Power of Parcel.
+            💠What is TREE SHAKING in parcel.
+           💠What is HOT MODULE REPLACEMENT.
+          💠What is SCOPE HOISTING.
+         💠What is dist folder of Parcel.
+        💠What is browserlist.
+       💠What Development build in parcel.
+      💠What Production build in parcel.
+
+
+
+🔰Episode - 3
+
+    💥What i have Learned ?
+     
+     💠What is JSX.
+      💠Difference between React.createElement and JSX.
+       💠Benifit of JSX and Behind the Scenes of JSX.
+        💠What is ROLE of Babel and Parcel in React Project. 
+       💠What is Component.
+      💠What is Functional Component.
+     💠What is Composing Component.
+          
+
+🔰Episode - 4
+
+    💥What i have Learned ?
+
+     💠What is <React.Fragment></React.Fragment> and <></>.
+      💠What is Virtual DOM.
+       💠Shadow DOM vs Virtual DOM.
+        💠What is Reconciliation in React.
+         💠What is React Fiber.
+          💠Why we need Keys in React.
+         💠Why we Can't use index as a key in React.
+        💠What is Props in React.
+       💠What is Config Driven UI.
+      💠What is Pure function in React.
+
+
+🔰Episode - 5
+
+    💥What i have Learned ?
+
+     💠What is JavaScript Modules.
+      💠What is export in JavaScript Modules.
+       💠Difference between Named Exprot, default Export * as Export.
+      💠Importance of Config.js File.
+     💠What is React Hooks.
+    💠Why do we Need useState Hook.
+
+
+
+🔰Episode - 6
+
+    💥What i have Learned ?
+
+     💠What is Microservice.
+      💠What is Monolith Architecture.
+       💠Benifit and Drawbacks of the Microservice and Monolith Architecture.
+        💠Why do we Need useState Hook.
+         💠What is Optional Chaining.
+          💠What is Shimmer UI.
+         💠Difference between the JavaScript statement and JavaScript expression.           *
+        💠What is Conditional Rendaring.
+       💠What is CORS.
+      💠What is CORS Extension and why do we need it.
+     💠What is async and await.                             *
+    💠What is Json().
+                
+
+
+🔰Episode - 7
+
+    💥What i have Learned ?
+
+     💠How useEffect Hook work.
+      💠What is useRouteError.
+       💠What is Outlet.
+       💠Why we should not use <a> tag </a> in React.
+      💠What is Client site Routing.                        *
+     💠What is Server site Routing.                         *
+
+
+🔰Episode - 8
+
+    💥What i have Learned ?
+
+     💠
+
+
+🔰Episode - 9
+🔰Episode - 10
+🔰Episode - 11
+🔰Episode - 12
+🔰Episode - 13
+🔰Episode - 14
+🔰Episode - 15
+🔰Episode - 16
