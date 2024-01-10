@@ -5,7 +5,7 @@
       Like : More Shimpler, More performent , Esy to test, and API Work's well with the Hooks. 
 
     🔆What is the meaning of this line "class UserClass extends React.Component" ?
-     ans :-
+     ans :- First One is class Keyword, and 2nd One is name Of the Class, Extends kewords tells us that 
 
     🔆What is the meaning of " React.Component" ?
      ans :-
