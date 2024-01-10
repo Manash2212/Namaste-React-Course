@@ -1,7 +1,8 @@
 🔰 Episodes - 8
 
     🔆Why we don't use class based Component?
-     ans :-
+     ans :- Afeter React 16 we use Functional Component because it's Provide Lot's of Advantages.
+      Like : More Shimpler, More performent , Esy to test, and API Work's well with the Hooks. 
 
     🔆What is the meaning of this line "class UserClass extends React.Component" ?
      ans :-
@@ -16,7 +17,7 @@
      ans :-
     
     🔆What is componentDidMount, and why do we use it? 
-     ans :-
+     ans :- 🔷ComponentDidMount is use For API call.
     
     🔆What is componentWillMount, and why do we use it?
      ans :-
@@ -25,12 +26,12 @@
      ans :- (i.)Whenever the in class based component class loads after that Constructor is called.
 
     🔆Parent and Child RealationShip in Class Based Component.
-     ans :- First Parent Constructor is called 
-            then  Parent Render is called
-            then Child Constructor is called
-            then Child Render is called --> When the Whole Component is Mounted Successfully
-            then in Child componentDidMount is called --> once the Child ComponentDidMounted Successfully
-          after that Parent componentDidMount is Called.
+     ans: - First Parent Constructor is called 
+          - then  Parent Render is called
+             - then Child Constructor is called
+             - then Child Render is called --> When the Whole Component is Mounted Successfully
+             - then in Child componentDidMount is called --> once the Child ComponentDidMounted Successfully
+          - after that Parent componentDidMount is Called.
 
 
 
