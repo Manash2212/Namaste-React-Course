@@ -1,6 +1,7 @@
 🔰 Episodes - 8
 
     🔆Why we don't use class based Component?
+     ans :-
 
     🔆What is the meaning of this line "class UserClass extends React.Component" ?
      ans :-
@@ -19,7 +20,17 @@
     
     🔆What is componentWillMount, and why do we use it?
      ans :-
+    
+    🔆How React Lifecycle Methods are work?
+     ans :- (i.)Whenever the in class based component class loads after that Constructor is called.
 
+    🔆Parent and Child RealationShip in Class Based Component.
+     ans :- First Parent Constructor is called 
+            then  Parent Render is called
+            then Child Constructor is called
+            then Child Render is called --> When the Whole Component is Mounted Successfully
+            then in Child componentDidMount is called --> once the Child ComponentDidMounted Successfully
+          after that Parent componentDidMount is Called.
 
 
 
@@ -29,10 +40,10 @@
 
     💠What is Class Based Component!
      💠What is React.Component!
-       💠What is Super Props!
-         💠What is Constructor!
-           💠How to create one or  Mltiple State in Class Based Component!
-             💠
+      💠What is Super Props!
+       💠What is Constructor!
+        💠How to create one or  Mltiple State in Class Based Component!
+         💠How to Update a State in Class Based Component.
 🔆
 🔰
 ⚜

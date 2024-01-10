@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [btn, setBtn] = useState("Login");
 
-  console.log("Header Component is Called");
+  // console.log("Header Component is Called");
 
   useEffect(() => {
-    console.log("Use Effect is called");
+    // console.log("Use Effect is called");
   }, [btn]);
   // 1.If there is no dependency Array ==> useEffect call on Every Render.
   // 2.If there is an Epmty dependency Array ==> useEffect call on initial Render.
