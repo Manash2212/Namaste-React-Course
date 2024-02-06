@@ -41,7 +41,8 @@ class About extends Component {
     return (
       <div className="about-container">
         <h1>This is Namaste React Course Episode - 8</h1>
-        <UserClass name={"Sohom Halder from Class 💥"} />
+        <UserClass name={"First Child 💥"} />
+        {/* <UserClass name={"Second Child from Class 💥"} /> */}
       </div>
     );
   }

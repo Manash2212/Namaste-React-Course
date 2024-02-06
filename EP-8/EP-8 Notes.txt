@@ -5,25 +5,49 @@
       Like : More Shimpler, More performent , Esy to test, and API Work's well with the Hooks. 
 
     🔆What is the meaning of this line "class UserClass extends React.Component" ?
-     ans :- First One is class Keyword, and 2nd One is name Of the Class, Extends kewords tells us that 
+     ans :- 
+      1st One is class Keyword, and
+
+      2nd One is name Of the Class,
+
+      3rd One extends kewords tells us that UserClass component is a Child of the React.Component class. That means UserClass component will inherit all the Properties and mehtods of the React.Component Class, 
+
+      4th One is React.Component class provides a number of useful mehtods for managing State, rendaring HTML and responding to the Methods. By extending React.Component class, the UserClass able to access this Features.
 
     🔆What is the meaning of " React.Component" ?
-     ans :-
+     ans :- React.Component class is provides a number of usefull method for managing State, rendaring HTML and responding to theMethods.
 
-    🔆How to use props in Class Based Component ?
-     ans :-  
+    🔆What is Constructor in Class Based Component ?
+     ans :-  Constructor is mthod used to iniitalize an Object's State in a class. The Constructor in React Component is called before the component is Mounted.
 
     🔆Why do we use super(props) in constructor ?
-     ans :-
+     ans :- The Purpose using Super in Constructor, is that allow a component to inherit the properties of it's Parent Component.
     
     🔆What is componentDidMount, and why do we use it? 
      ans :- 🔷ComponentDidMount is use For API call.
-    
-    🔆What is componentWillMount, and why do we use it?
-     ans :-
+    🔷The componentDidMount is a Lifecycle method of React, it is called once the component has been mounted to the DOM, it is typically used for any necessary API Calls or data fetching.
+
+    🔆What is componentWillUnmount, and why do we use it?
+     ans :- When ever the page shifted another page, like- when we click to another page at that time componentWillUnmount is called, and also componentWillUnmount only called when ever we shifted that page to another page. 
     
     🔆How React Lifecycle Methods are work?
-     ans :- (i.)Whenever the in class based component class loads after that Constructor is called.
+     ans :- (i.)Whenever the in class based component class loads after that Everything Start Let's start
+
+      ------Mounting Lifecycle------ is Called
+     --->1st: Constructor is called with (Dummy Data).
+     --->2nd: Render is called with that (Dummy Data). 
+                and <Display the Dummy HTML Data to the Web pages> 
+     --->3rd: Now componentDidMount will called. 
+          In componentDidMount...<API will called>
+          then <this.setState()> is Called-->with new API data where state Variable is Updated
+
+      -------Updating Cycle----- is Called
+     --->4th: When Updating Cycle is Start 
+          render is called with New <API Data>....Here DOM reconsiliation is started
+          after that updated <HTML (new API Data)> in the web Page...
+          then componentDidUpdate() is called
+
+
 
     🔆Parent and Child RealationShip in Class Based Component.
      ans: - First Parent Constructor is called 
@@ -32,9 +56,6 @@
              - then Child Render is called --> When the Whole Component is Mounted Successfully
              - then in Child componentDidMount is called --> once the Child ComponentDidMounted Successfully
           - after that Parent componentDidMount is Called.
-
-
-
 
 
 💥What i have Learned ?

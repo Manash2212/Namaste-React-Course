@@ -1,7 +1,7 @@
 {
   "name": "namaste-react",
   "version": "1.0.0",
-  "description": "\"This is Namaste-React Episode - 8\"",
+  "description": "This is Namaste-React Episode - 8",
   "main": "index.js",
   "scripts": {
     "start ": "parcel index.html",
