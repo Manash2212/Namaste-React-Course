@@ -1,0 +1,35 @@
+🔰 Episodes - 9
+
+  🔆What is Single Responsibility principle (SRP)?
+
+  🔆What is modularity in Code?
+   ans:- You break down your code different different small modules, so that our code becomes more clean, more maintainable, more testable, because--> when i have single unit for Perticular component we can write the testcases just for that Perticular component, it hellps to finding bugs if happened. 
+    So, Moral : Distributing our code in smaller smaller pices and make it moduler it makes our code testable, maintainable and reusable. reusable that means, and we can re use any component to anyware. 
+    and all this things can be managed by custom Hooks
+
+
+    
+ 🔷 Note: useEffect and componentDidMount is not same at all.
+ 🔷 Note: When ever we use setInterval to any component then we should clear it as well, other wise the browser Cache will increased and  
+            website will get Hanged.
+
+
+💥What i have Learned ?
+
+    💠Single Responsibility principle (SRP)
+     💠Modularity in code.
+      💠Code Splitting. -->To break dowen our code to smaller Logical Chuncks.
+      💠Lazy Loading.
+      💠Dynamic Bundling.
+      💠.
+
+
+
+
+
+
+🔆
+🔰
+⚜
+💫
+🔷

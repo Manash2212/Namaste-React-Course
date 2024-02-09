@@ -28,7 +28,7 @@
     🔷The componentDidMount is a Lifecycle method of React, it is called once the component has been mounted to the DOM, it is typically used for any necessary API Calls or data fetching.
 
     🔆What is componentWillUnmount, and why do we use it?
-     ans :- When ever the page shifted another page, like- when we click to another page at that time componentWillUnmount is called, and also componentWillUnmount only called when ever we shifted that page to another page. 
+     ans :- When ever the page shifted another page, like- when we click to another page at that time componentWillUnmount is called, and also componentWillUnmount only called when ever i shifted that page to another page. 
     
     🔆How React Lifecycle Methods are work?
      ans :- (i.)Whenever the in class based component class loads after that Everything Start Let's start
@@ -57,6 +57,13 @@
              - then in Child componentDidMount is called --> once the Child ComponentDidMounted Successfully
           - after that Parent componentDidMount is Called.
 
+    🔆Why we should use initial valu?
+     and:- suppose we fethcing an API, during the fetching time react loads the initial value to the webpage for some milliseconds, after that componentDidMount or useEffect is called the render happens again and then the fetch API data is Load.
+
+ 🔷 Note: useEffect and componentDidMount is not same at all.
+ 🔷 Note: When ever we use setInterval to any component then we should clear it as well, other wise the browser Cache will increased and  
+            website will get Hanged.
+
 
 💥What i have Learned ?
 
@@ -64,8 +71,12 @@
      💠What is React.Component!
       💠What is Super Props!
        💠What is Constructor!
-        💠How to create one or  Mltiple State in Class Based Component!
+        💠How to create one or Mltiple State in Class Based Component!
          💠How to Update a State in Class Based Component.
+          💠How React Lifecycle is work?
+           💠what is componentDidMount?
+            💠what is componentDidUpdate?
+             💠what is componentWillUnmount?
 🔆
 🔰
 ⚜
