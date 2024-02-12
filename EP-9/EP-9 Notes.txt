@@ -1,11 +1,25 @@
 🔰 Episodes - 9
 
   🔆What is Single Responsibility principle (SRP)?
+   ans:- Single responsibility principle --> means One component is only made for one specific function. In javascript this can be achived by breaking down complex function into smaller ones which will perform single task. that means a function will do only one work at a time.
 
   🔆What is modularity in Code?
    ans:- You break down your code different different small modules, so that our code becomes more clean, more maintainable, more testable, because--> when i have single unit for Perticular component we can write the testcases just for that Perticular component, it hellps to finding bugs if happened. 
     So, Moral : Distributing our code in smaller smaller pices and make it moduler it makes our code testable, maintainable and reusable. reusable that means, and we can re use any component to anyware. 
     and all this things can be managed by custom Hooks
+
+  🔆When and why do we need lazy()?
+   ans:- The React.lazy() function used to loads components asynchronously. That means, the components will not be loaded untill is needed. which can be improve the performance of our  application.  
+
+  🔆Why we got this error : [A component suspended while responding to synchronous input. This will cause the UI to be replaced with a loading indicator. To fix, updates that suspend should be wrapped with startTransition? How does suspense fix this error]?
+   ans:-When we click the "Grocery" component React not able to find that component because "Grocery" component render after 10ms so, as we know React is very fast,Rect try to fetch the component before the component render. that's why React suspend the Rendering process.  
+
+  🔆What is suspense?
+   ans:- When we use React.lazy() function to dynamically import components, we may encounter a delay in rendering while the component is loaded. "Suspance" allows us to Gracefully Handle this loading States, 
+
+  🔆When do we and why do we need suspense?
+
+  🔆Advantages and disadvantages of using this code splitting pattern?
 
 
     
@@ -19,9 +33,11 @@
     💠Single Responsibility principle (SRP)
      💠Modularity in code.
       💠Code Splitting. -->To break dowen our code to smaller Logical Chuncks.
-      💠Lazy Loading.
-      💠Dynamic Bundling.
-      💠.
+       💠Dynamic Bundling.
+        💠Lazy Loading. --> we not load Everything, when we go to some Perticular component then we load the Data .
+         💠on demand loading. --> same as lazy loading, when we go to the page then data will load.
+
+
 
 
 
