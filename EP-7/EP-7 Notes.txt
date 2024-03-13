@@ -26,14 +26,14 @@
 
     🔆How many types of routing prensent in web application?
      ans :- There are two types of routing prensent in web application
-        1.Client site Routing
-        2.Server site Routing
+        1.Client site Routing :- If you have a dynamic that needs to update the Page frequently 
+        2.Server site Routing :- If you have a Static Application that needs to fast and responsive.
 
-    🔆What is Client site Routing?
-     ans :=
+    🔆What is Client site Routing(CSR)?
+     ans :- In CSR, the HTML content is generated on the client-side by the browser using JavaScript. This means that the browser needs to download and execute the JavaScript code before it can render the page. CSR is often used for dynamic applications that need to update the page frequently.
 
-    🔆What is Server site Routing?
-     ans :- 
+    🔆What is Server site Routing(SSR)?
+     ans :- In SSR, the HTML content is generated on the server-side and sent to the client as a pre-rendered HTML document. This means that the browser can render the page immediately without having to download and execute any JavaScript code. SSR is often used for static applications or applications that need to be fast and responsive.
     
 
 💥What i have Learned ?
@@ -41,7 +41,10 @@
     💠What is useState Hook and how it's work?
      💠What is useEffect Hook and how it's work and Learned about useEffect dependencies?
       💠React-roter-dom configuration and Routing One componnet to another component.
-       💠
+       💠What is useRouteError Hook? and how it's work?
+        💠What is outlet?
+         💠Why we should not never use <a> tag in React for Routing. 
+          💠What is CSR and SSR.
 
 
 

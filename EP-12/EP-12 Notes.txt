@@ -1,0 +1,27 @@
+🔰 Episodes - 11
+
+    🔆What is prop drilling?
+     ans:-
+    🔆What is lifting the state up?
+     ans:-
+    🔆What is Context Provider and Context Consumer?
+     ans:-
+    🔆If you don’t pass a value to the provider does it take the default value?
+     ans:-
+
+
+💥What i have Learned ?
+
+    💠
+
+
+
+
+
+
+
+
+🔆
+🔰
+⚜
+💫

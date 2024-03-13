@@ -1,4 +1,4 @@
-🔰Episode-1
+🔰Episode-1         '''''''Inception''''''
 
  🔆Part-1
    💫what is all this thing are? document, createElement, getElementById
@@ -45,7 +45,7 @@
 
 
 
-🔰Episode-2
+🔰Episode-2               '''''''Igniting Our Appp'''''''
 
     🔆Part-1
       💫What is npm ? 
@@ -88,7 +88,7 @@
      ans :- (^)Caret - Means If there is Minor Update, then the version will do Automatically, and the 
      (~)tilde - Means If there is Major Update, then the version will do Automatically. 
 
-    🔆Part-2
+    🔆Part-2              
 
      💫What is the Difference between npm and npx?
 
@@ -144,7 +144,7 @@
 
 
 
-🔰 Episodes -3
+🔰 Episodes -3          '''''''Laying the Foundation''''''
 
      🔆What is JSX?
       ans :- JSX stands for JavaScript XML and JSX is a Syntax extensions for JavaScript that lets you write HTML- like markup inside a JavaScript File. Basically it's just porvides syntactic sugar for the React.createElement(types, props, ...children) function. 
@@ -173,7 +173,7 @@
 
 
 
-🔰 Episodes - 4
+🔰 Episodes - 4           ''''''''Talk is Cheap, Show me the Code''''''
 
     🔆What is <React.Fragment></React.Fragment> and <></>?
      ans :- React.Fragment that allows us to wrap or group muliple elements without adding Extra Node  to the DOM. This can be Very helpful when rendaring Multiple Child elements/Components inside a single Parent Component.
@@ -211,7 +211,7 @@
     🔆What is Pure Function in React ?
      ans :- When a function's return value is determined by its input value. and It's return value are always the same for the same Input Values.
 
-🔰 Episodes - 5
+🔰 Episodes - 5  ''''''''''''''Let's get Hooked''''''''''''''
 
     🔆What are JavaScript Modules ? 
      ans :- JavaScript Modules allows us to break up our Code into Separate Files.
@@ -266,35 +266,142 @@
 🔰 Episodes - 6        '''''Exploring the world'''''
 
 
-🔆 What is a Microservice?
- ans :- Microservice architecture treats each function of an application as an independent service that can be alerted, Updated, or taken down without affecting rest of the application. 
+   🔆 What is a Microservice?
+    ans :- Microservice architecture treats each function of an application as an independent service that can be alerted, Updated, or taken down without affecting rest of the application. 
 
-  💫Benifits :- 
-     1)Better deploybility 
-     2)Comfortable for developer to understand
-     3)Better code Readability.
-     4)The application start faster.
+     💫Benifits :- 
+        1)Better deploybility 
+        2)Comfortable for developer to understand
+        3)Better code Readability.
+        4)The application start faster.
 
-  💫Drawbacks :- 
-     1)Testing more Difficult acording to Monolith architecture.
-     2)Developer must deal with the additional complexity of creating a distributed system.
+     💫Drawbacks :- 
+        1)Testing more Difficult acording to Monolith architecture.
+        2)Developer must deal with the additional complexity of creating a distributed system.
 
-🔆 What is Monolith architecture?
- ans:- Monolith means composed all in one piece. A Monolith application describe a single-tired software application in which different components combined in to a single program from a single platform.
+   🔆 What is Monolith architecture?
+    ans:- Monolith means composed all in one piece. A Monolith application describe a single-tired software application in which different components combined in to a single program from a single platform.
 
-  There is a Very famous quots is "Never Put all egs in one Busket" and Monolith does exact oposite things. 
- Mono means : Single , and Lithc means : Stone
- 
-  💫Benifits :- 
-     1)Simple to develop, 
-     2)Simple to test, 
-     3)Simple to deploy.
+     There is a Very famous quots is "Never Put all egs in one Busket" and Monolith does exact oposite things. 
+    Mono means : Single , and Lithc means : Stone
+   
+     💫Benifits :- 
+        1)Simple to develop, 
+        2)Simple to test, 
+        3)Simple to deploy.
 
-  💫Drawbacks :-
-     1) Maintenance - If application to Large and complex to understand, then it will be chalenging to make changes fast and correctly.
-     2)The Size of the application can slow down the Start-up time.
-     3)On each update we have to Re-deploy the application.
-     4)Continuously Deployment is Difficult.
+     💫Drawbacks :-
+        1) Maintenance - If application to Large and complex to understand, then it will be chalenging to make changes fast and correctly.
+        2)The Size of the application can slow down the Start-up time.
+        3)On each update we have to Re-deploy the application.
+        4)Continuously Deployment is Difficult.
+
+   🔆 Why do we need a useEffect Hook?
+    ans :- The React useState hook is used to manage and handle the state.
+     States are mutable, which means their value can change.
+     The useState hooks allows you to create, track and update a state in a functional component. 
+
+   🔆 What is Optional Chaining?
+    ans :- The Optional Chaining operator (?.) is like a shortcut of accessing nested properties in a series of object.
+     If the property exists, the operator will return the value of the property. If the property does not exist, the operator will return undefined insted of throwing error.
+
+   🔆 What is Shimmer UI?
+    ans :- So suppose we build a web app with ReactJS for displaying the data we follow this process:
+
+       Page Loads --> Render--> API call --> Render
+
+    We have to render before the API calls , suppose API call is taking 500ms so for better UX we have to make sure before that otherwise it will fill like the site has stuck.
+
+    So the in Secound Render stage, as a Regullar process we put Loading icon at the loading Phase, but here comes the part of Shimmer UI. When the site is loading it gives some fake empty cards(Which is castomizable ) and then dipslay the data After API calls. 
+
+
+   🔆 What is the difference between JS expression and JS statement
+    ans :-
+
+   🔆 What is Conditional Rendering, explain with a code example
+    ans :- In React, Conditional Rendaring is a process of displaying different content based on different condition or states. It allows to creates dynamic user interface.
+
+     Example :- 
+     export const User =() = >
+      const Login =true;
+       return Login ?(
+           <h1>The User is LogedIn</h1>
+       ):(
+
+           <h1>The User is LogedOut</h1>
+       )
+
+   
+
+   🔆 What is CORS?
+    ans :- CORS :- Cors Origin Resource Sharing. is a Browser mechanism that allows user to access resources from outside of a given Domain.
+
+   🔆 What is async and await?
+    ans :- An async function is declared with the async keyword which enables the aynchronous, Promissed-based behavior to avoid the  Promise Chains, This Function can Contain zero or more await Expression.   
+
+
+   🔆 What is the use of `const json = await data.json();` in getRestaurants()
+    ans :- JSON() :- Stands for Javascript Object Notation. JSON method of the Response interface takes a Response stream and reads it into completion. It returns a promise which resolved with the result and parsong the body test into JSON.
+
+    There are two types of JSON methods 
+    1). JSON.parse() :-This methos takes JSON String and transforms it into Javascript Object.
+    2). JSON.stringfy () :- This methods takes Javascript Value (JSON Object) to a JSON String conversion 
+
+   🔆 Why do we need to add CORS extension in google Chrome? 
+    ans :- If we want to access to fetch API from Particular website then we will get an Error. because, Cors has been blocked by CORS Policy : No 'Access-Control-Allow-Origin' header is prasent. So avoid This type of error or ByPass the CORS policy we have to use CORS ByPass extension.
+
+   🔆What is CORS extension ?
+    ans :- This extension bypasses the "XMLHttpRequest" and "fetch" rejections by altering the "Access-Control-Allow-Origin" and "Access-Control-Allow-Methods" headers for every request that the browser receives.
+
+🔰 Episodes - 7       ''''''Findng the Path'''''
+
+    🔆How is useEffect Hook is Called
+     ans:- First useEffect take a callBack function and a Dependency array. 
+
+     💫Defination of useEffect is :- Every time the ccomponent Render useEffect will be called. But the dependency Array changes the behavior of it's Render.
+
+
+        1.If there is no dependency Array ==> useEffect call after every Render of that component.
+        2.If there is an Epmty dependency Array ==> useEffect call on initial Render of that component.
+            :- When the Page Loads then Component loads, when the Component loads or render then the useEffect is Called .
+        3.If there is an dependency Array with value ==> useEffect call on initial Render of that component and when the dependency [btn] is changed or updated .
+
+    🔆What is useRouteError ?
+     ans :- It's a Hook which is Given to us by the React-router-dom.
+      using this hook, is give more information about this Error.
+      We can display Better Error Masage on our Page.
+
+    🔆What is Outlet ?
+     ans :- Outlet is React-router-dom component, Outlet should be used in parent route elements to render their child route elements.
+     Ex :- Whenever their is changes in the path the Outlet will filed with the children acording to the path.
+
+    🔆Why we should never use <a> anchor </a> tag in react for Routing?
+     ans :- When we use the <a> anchor </a> tag in react for Routing the main Problem is the whole page get Refreshed. This Operation Basically Decrese the App Performance. 
+     Insted of <a> anchor </a> tag we should use LINK component from React-router-dom.
+
+    🔆How many types of routing prensent in web application?
+     ans :- There are two types of routing prensent in web application
+        1.Client site Routing :- If you have a dynamic that needs to update the Page frequently 
+        2.Server site Routing :- If you have a Static Application that needs to fast and responsive.
+
+    🔆What is Client site Routing(CSR)?
+     ans :- In CSR, the HTML content is generated on the client-side by the browser using JavaScript. This means that the browser needs to download and execute the JavaScript code before it can render the page. CSR is often used for dynamic applications that need to update the page frequently.
+
+    🔆What is Server site Routing(SSR)?
+     ans :- In SSR, the HTML content is generated on the server-side and sent to the client as a pre-rendered HTML document. This means that the browser can render the page immediately without having to download and execute any JavaScript code. SSR is often used for static applications or applications that need to be fast and responsive.
+    
+
+💥What i have Learned ?
+    
+    💠What is useState Hook and how it's work?
+     💠What is useEffect Hook and how it's work and Learned about useEffect dependencies?
+      💠React-roter-dom configuration and Routing One componnet to another component.
+       💠What is useRouteError Hook? and how it's work?
+        💠What is outlet?
+         💠Why we should not never use <a> tag in React for Routing. 
+          💠What is CSR and SSR.
+
+         
 
 
 
