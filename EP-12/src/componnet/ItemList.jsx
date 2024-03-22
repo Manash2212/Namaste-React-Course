@@ -1,8 +1,17 @@
 import React from "react";
 import { RestaurantImg } from "../utils/Constants";
+import { useDispatch } from "react-redux";
+import { addItem } from "../utils//Redux/cartSlice";
 
 const ItemList = ({ items }) => {
   // console.log(items);
+
+  const dispatch = useDispatch();
+  const handleAddItem = (item) => {
+    //Dispatch an action
+    dispatch(addItem(item));
+  };
+
   return (
     <div className="p-2  bg-gray-100 shadow-sm shadow-gray-300">
       {items.map((item) => (
@@ -26,7 +35,13 @@ const ItemList = ({ items }) => {
           </div>
           <div className="sec-2 w-3/12">
             <div className="bt absolute">
-              <button className=" px-2 py-1 bg-black text-white rounded-md hover:shadow-md shadow-white">
+              <button
+                //This is means i'm passing a callback function on onClick event.
+                onClick={() => handleAddItem(item)}
+                //This is means i'm calling the function right away.
+                // onClick={handleAddItem}
+                className=" px-2 py-1 bg-black text-white rounded-md hover:shadow-md shadow-white"
+              >
                 Add+
               </button>
             </div>

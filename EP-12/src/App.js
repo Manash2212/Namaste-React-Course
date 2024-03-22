@@ -12,8 +12,12 @@ import RestaurentMenu from "./componnet/RestaurentMenu";
 import Shimmer from "./componnet/Shimmer";
 // import Grocery from "./componnet/Grocery";
 import UserContext from "./utils/userContext";
+import { Provider } from "react-redux";
+import appStore from "./utils/Redux/appStore";
+// import Grocery from "./componnet/ShoppingCart";
 
 const Grocery = lazy(() => import("./componnet/Grocery"));
+const ShoppingCart = lazy(() => import("./componnet/ShoppingCart"));
 // Here import() is a function, and this function will take the path of Grocery
 
 const App = () => {
@@ -29,15 +33,17 @@ const App = () => {
     setUserName(data.name);
   }, []);
   return (
-    <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
-      <div>
-        <UserContext.Provider value={{ loggedInUser: "Sohom Halder" }}>
-          <Header />
-        </UserContext.Provider>
-        <Outlet />
-        {/* <Footer /> */}
-      </div>
-    </UserContext.Provider>
+    <Provider store={appStore}>
+      <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+        <div>
+          <UserContext.Provider value={{ loggedInUser: "Sohom Halder" }}>
+            <Header />
+          </UserContext.Provider>
+          <Outlet />
+          {/* <Footer /> */}
+        </div>
+      </UserContext.Provider>
+    </Provider>
   );
 };
 
@@ -57,6 +63,15 @@ const appRouter = createBrowserRouter([
           </Suspense>
         ),
       },
+      {
+        path: "/cart",
+        element: (
+          <Suspense fallback={<Shimmer />}>
+            <ShoppingCart />
+          </Suspense>
+        ),
+      },
+      { path: "/cart", element: <ShoppingCart /> },
       { path: "/restaurentmenu/:resid", element: <RestaurentMenu /> },
     ],
     errorElement: <Error />,

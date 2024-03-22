@@ -1,19 +1,66 @@
 🔰 Episodes - 11
 
-    🔆What is prop drilling?
+    🔆 useContext vs Redux.
      ans:-
-    🔆What is lifting the state up?
+    🔆 Advantage of using Redux Toolkit over Redux.
      ans:-
-    🔆What is Context Provider and Context Consumer?
+    🔆 Explain Dispatcher.
      ans:-
-    🔆If you don’t pass a value to the provider does it take the default value?
+    🔆 Explain Reducer.
      ans:-
+    🔆 Explain slice.
+     ans:-
+    🔆 Explain selector.
+     ans:-
+    🔆 Explain createSlice and the configuration it takes.
+     ans:-
+
+
+Notes:- Redux WOrks in the Data Layer in React.
+
+    Notes:-We can not Modify the Cart Directly in Redux.
+        So, Here is the Way to Modify the Cart .
+    💠When i Click the Add Button 
+        -->
+        💠It's Dispatch an Action 
+            -->
+            💠That's Action Calls a Function which is (Reducer) and this Function Internally Modify the Cart, which updates the Slice Store
+              |                          
+             So, this is How we write the data from add button to Cart Slice... 
+    Now:- How we can get the data or read the data from the Cart Slice Store and Display it to the Header Cart Oprion [🛒]..?
+
+    💠Now we will use Selector frunction to get the data from the Cart Slice Store and Display it to the Header Cart Option [🛒].(When we use Selector Method the phenomina is Known as Subscribing to the Sotre --> Subscribing to the store Means it's Sync with the Cart Slice Store with the Page...That means when we change anything the State will update automatically )
+    --> 🛒
+
 
 
 💥What i have Learned ?
 
     💠
 
+
+    ⚜1st- Create a new File as > appStore (import configutreStore from reduxjs-toolkit )
+
+    ⚜2nd - Wrap up everything or  the whole application into Provider which is imported from react-redux and it takes store={} as Prop and inside this store we have to pass {appStore} component.
+    
+    ⚜3rd - Let's Create a cartSlice --> import createSlice from redux-toolkit and and this createSlice function take some configuration to create a Slice 
+        ex:-{
+            name : "Slice
+        }
+
+What is the difference between this 3 onClick Event.
+
+onClick={()=>handleClick(argument)}
+onClick={handleClick(argument)}
+onClick={handleClick()}
+
+   💫Redux Toolkit
+     -Install @reduxjs-toolkit and react-redux
+     -Build Our store
+     -Connect Our Store to our app
+     -Slice (cartSlice)
+     -Dispatch(Action)
+     -Selector
 
 
 

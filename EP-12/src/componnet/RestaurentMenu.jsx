@@ -12,7 +12,7 @@ const RestaurentMenu = () => {
   const [showIndex, setShowIndex] = useState(null);
 
   const resInfo = useRestaurentMenu(resid);
-  console.log(resInfo);
+  // console.log(resInfo);
   if (resInfo === null) return <Shimmer />;
 
   // Details of Restaurent
@@ -30,7 +30,7 @@ const RestaurentMenu = () => {
   const { itemCards } =
     resInfo?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card
       ?.card;
-  console.log(itemCards);
+  // console.log(itemCards);
 
   // Menu Categories API Fetch
   const categories =
@@ -39,7 +39,7 @@ const RestaurentMenu = () => {
         c.card?.card?.["@type"] ===
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     );
-  console.log(categories);
+  // console.log(categories);
 
   return (
     <div className="menu  py-10 mx-auto w-[50%] ">
