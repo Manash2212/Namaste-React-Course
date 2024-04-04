@@ -1,0 +1,178 @@
+🔰 Episodes - 11 .....Time for Testing ....
+
+
+   🔰Part-1
+
+    🔆What are the differetn type of testing that developer can do?
+     ans:- 
+      1.Manual Testing :- Where we can each and every component in our application.
+      The Drawbacks of Manual Testing is - If small changes are made, that will impact the in our whole application. 
+
+      2. Developer write the Test cases for the Testing.
+
+    🔆What are the Different type of testCases that we can do in our React Application ?
+     ans :- Ther are three types of testing that we can do(Write the Test Cases) in our React Application.
+
+        - Unit Testing
+        - Intigration Testing
+        - End to end testing - e2e testing
+
+    🔆What is Unit Testing?
+     ans:- Unit testing involves, testing indivisual components or function in isolation to ensure they work as expected. In React we can use testing libraries like "Jest" and testing utilities like "React Testing Libraries or Enzyme" to write test cases for components. 
+
+    🔆What is Intigration Testing?
+     ans:- Intigration testing focuses on how different components and modules interact each other.It ensure that various parts of our application are functions correctly.
+     
+    🔆What is End to end testing - (or) e2e testing?
+     ans :- End-to-end testing is a comprehensive approach that examines an application's functionality from start to finish, this Type of testing allows us to caches bugs and Regressions that might be absent during "Unit Testing" and "Intigration testing".
+
+     There are Popular Framework to write End-to-end test cases, Like:- Cypress, Puppeteer, and Playwright.  
+
+   🔰Part-2
+    
+    React testing Library using Jest framework behind the scenes
+    So, we need React Testing library and as well as jest in our project
+
+    🔆Steps- to Set up Testing in our app 
+        - Install React Testing library
+        - Install Jest Framework
+        - Install Babel Dependences
+        - Create a new babel.config.js file in root directory
+        - configure Babel to target current version of Node by creating babel.config.js.
+        - Create a.parcelrc File 
+        - Configure the .parcelrc file to disable the default babel transpilation.
+        - Jest configuration 
+            -> npx jest --init , at the run time it will ask some question to configure the jest and it will create a new configuration file as (jest.config.js)
+        - In Testing Library Documentation jest says - If we are using jest 28 or latest, now must be installed separately "jest-environment-jsdom" package.
+          ->Install - npm install --save-dev jest-environment-jsdom.
+        - Install @babel/preset-react -> to make JSX work in test cases.
+        - Include @babel/preset-react inside my babel.config.js file 
+          -> Like this - ["@babel/preset-react", { runtime: "automatic" }],
+        - Install npm i -D @testing-library/jest-dom (which is used for toBeInTheDocument() )
+
+
+
+    What is Babel ? 
+     ans :- Bable is a Transpiler
+
+   🔷Note:- In your command prompt run npm test-(which is jest)
+     - If No test found, existing with code 1
+     that means we have successfully configured - React Testing Library, jest, Babel, Parcel.
+
+    🔆What is JSDOM?
+     ans:- JSDOM is a library which parces and interact with assembled HTML just like a Browser 
+      The benefits is that it itn't actually a browser. Insted, it implements web standards like browsers do.
+      npm install --save-dev jest-environment-jsdom
+
+    🔆 "__test__" what is called this Underscore  before and after this test ?  
+     ans :- Thi is Called Dunder Method
+
+
+  🔰Part-3
+
+    💠Notes:- When you console.log on test cases, we will get the jsx from console.log.
+
+    🔆What is JSX?
+     ans:- jsx is nothing but a React Element, React Element is a set of Object.
+
+    🔆When to use getBy...! and getAllBy...! ?
+     ans :- when we need to find single argument in the Document then we use getBy.. Ex - getByRole()
+         when we need to find Multiple argument in the Document then we use getAllBy.. Ex - getAllByRole()
+
+  💠Simple Rule of Testing of Everytime.
+   ans :- 
+
+    test("should Contact us page loadig or not..!", () => {
+      -->render Something
+          render(<Contactus />);
+
+      -->Querying Something
+          const button = screen.getByText("Submit");
+
+      -->Assertion or Assert Somthing
+           expect(button).toBeInTheDocument();
+
+    🔰Part-4
+
+    🔆What is describe() in test Cases?
+     ans :- Suppose in the test file there are lot's of test cases, that becomes difficult to manage. So to Manage the lot's of test cases simultaneously, securely we use describe() to group up the test cases, 
+     basically we group the Multiple test cases in a single Block and the Block of the test cases is called describe().
+     Example :-
+       describe("First Testing in Contact Us Page", () => {
+          test("should Contact us page loadig or not..!", () => {
+            // render Something
+            render(<Contactus />);
+        
+            // Querying Something
+            const button = screen.getByText("Submit");
+        
+            // Assertion or Assert Somthing
+            expect(button).toBeInTheDocument();
+        
+            //toBeInTheDocument()-> THis is function will findout whether my heading is inside the documnet or not! which is rendering.
+          });
+        
+          test("Should check there is any heading Present or Not..!", () => {
+            render(<Contactus />);
+        
+            const heading = screen.getByRole("heading");
+        
+            // Assertion
+        
+            expect(heading).toBeInTheDocument();
+          });
+        
+          test("Should check there is Submit text written in the Document", () => {
+            render(<Contactus />);
+        
+            const checkSubmit = screen.getByText("Submit");
+        
+            expect(checkSubmit).toBeInTheDocument();
+          });
+        });
+
+
+    🔰Part-5
+    
+
+
+
+
+💥What i have Learned ?
+
+    💠
+
+
+    ⚜1st- Create a new File as > appStore (import configutreStore from reduxjs-toolkit )
+
+    ⚜2nd - Wrap up everything or  the whole application into Provider which is imported from react-redux and it takes store={} as Prop and inside this store we have to pass {appStore} component.
+    
+    ⚜3rd - Let's Create a cartSlice --> import createSlice from redux-toolkit and and this createSlice function take some configuration to create a Slice 
+        ex:-{
+            name : "Slice
+        }
+
+What is the difference between this 3 onClick Event.
+
+onClick={()=>handleClick(argument)}
+onClick={handleClick(argument)}
+onClick={handleClick()}
+
+   💫Redux Toolkit
+     -Install @reduxjs-toolkit and react-redux
+     -Build Our store
+     -Connect Our Store to our app
+     -Slice (cartSlice)
+     -Dispatch(Action)
+     -Selector
+
+
+
+
+
+
+
+🔆
+🔰
+⚜
+💫

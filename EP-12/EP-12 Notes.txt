@@ -1,36 +1,14 @@
-🔰 Episodes - 11
+🔰 Episodes - 12 .....Lets Build Our Store....
 
-    🔆 useContext vs Redux.
-     ans:-
-    🔆 Advantage of using Redux Toolkit over Redux.
-     ans:-
-    🔆 Explain Dispatcher.
-     ans:-
-    🔆 Explain Reducer.
-     ans:-
-    🔆 Explain slice.
-     ans:-
-    🔆 Explain selector.
-     ans:-
-    🔆 Explain createSlice and the configuration it takes.
-     ans:-
+
+   🔰Part-1
+
+    
 
 
 Notes:- Redux WOrks in the Data Layer in React.
 
-    Notes:-We can not Modify the Cart Directly in Redux.
-        So, Here is the Way to Modify the Cart .
-    💠When i Click the Add Button 
-        -->
-        💠It's Dispatch an Action 
-            -->
-            💠That's Action Calls a Function which is (Reducer) and this Function Internally Modify the Cart, which updates the Slice Store
-              |                          
-             So, this is How we write the data from add button to Cart Slice... 
-    Now:- How we can get the data or read the data from the Cart Slice Store and Display it to the Header Cart Oprion [🛒]..?
-
-    💠Now we will use Selector frunction to get the data from the Cart Slice Store and Display it to the Header Cart Option [🛒].(When we use Selector Method the phenomina is Known as Subscribing to the Sotre --> Subscribing to the store Means it's Sync with the Cart Slice Store with the Page...That means when we change anything the State will update automatically )
-    --> 🛒
+    Notes:-
 
 
 

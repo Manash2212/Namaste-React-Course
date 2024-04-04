@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1712171186710" clover="3.2.0">
+  <project timestamp="1712171186711" name="All files">
+    <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="9" coveredelements="9" complexity="0" loc="7" ncloc="7" packages="2" files="3" classes="3"/>
+    <package name="componnet">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="Contactus.jsx" path="E:\2 Namaste React\1.Namaste-React-Web-Series\EP-13\src\componnet\Contactus.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="Sum.jsx" path="E:\2 Namaste React\1.Namaste-React-Web-Series\EP-13\src\componnet\Sum.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Constants.js" path="E:\2 Namaste React\1.Namaste-React-Web-Series\EP-13\src\utils\Constants.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
