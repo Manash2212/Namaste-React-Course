@@ -133,7 +133,26 @@
 
 
     🔰Part-5
-    
+
+     Note:- in Jest, we use "test" as function name and also we can use "it" also.  
+        
+        Example -
+        
+        i) test("This is test function",()=>{
+          //Rendering
+          //Querying
+          //Assertion
+        })
+
+         and
+
+        ii) it("This is it function",()=>{
+          //Rendering
+          //Querying
+          // Assertion
+        })
+
+        
 
 
 

@@ -3,7 +3,7 @@ import Contactus from "../Contactus";
 import "@testing-library/jest-dom";
 
 describe("First Testing in Contact Us Page", () => {
-  test("should Contact us page loadig or not..!", () => {
+  it("should Contact us page loadig or not..!", () => {
     // render Something
     render(<Contactus />);
 
@@ -16,7 +16,7 @@ describe("First Testing in Contact Us Page", () => {
     //toBeInTheDocument()-> THis is function will findout whether my heading is inside the documnet or not! which is rendering.
   });
 
-  test("Should check there is any heading Present or Not..!", () => {
+  it("Should check there is any heading Present or Not..!", () => {
     render(<Contactus />);
 
     const heading = screen.getByRole("heading");
@@ -26,7 +26,7 @@ describe("First Testing in Contact Us Page", () => {
     expect(heading).toBeInTheDocument();
   });
 
-  test("Should check there is Submit text written in the Document", () => {
+  it("Should check there is Submit text written in the Document", () => {
     render(<Contactus />);
 
     const checkSubmit = screen.getByText("Submit");
