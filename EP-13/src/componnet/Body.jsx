@@ -21,16 +21,16 @@ const Body = () => {
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=22.5280352&lng=88.36590830000002&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
-    console.log(json);
+    // console.log(json);
     setListOfRestaurent(
       json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
     );
     setFiltertedRestaurent(
       json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
     );
-    console.log(
-      json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
-    );
+    // console.log(
+    //   json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
+    // );
   };
 
   // Check user connections is stable or not..!
@@ -51,6 +51,7 @@ const Body = () => {
       <div className="search flex items-center justify-around mt-3">
         <div className="">
           <input
+            data-testid="searchInput"
             type="text"
             className="search-box border-2 border-gray-300 rounded-md mr-2 outline-none px-2 pb-0.2 "
             value={searchText}
@@ -76,6 +77,7 @@ const Body = () => {
         {/* Filtering The Restaurent Cards and Update the Ui  */}
         <div className="">
           <button
+            data-testid="topRestaurent"
             className="filter-btn bg-gray-200 px-2 py-1 rounded-md text-lg "
             onClick={() => {
               const filterdList = ListOfRestaurent.filter(
@@ -105,7 +107,7 @@ const Body = () => {
             to={`/restaurentmenu/${restaurent?.info.id}`}
           >
             {" "}
-            <RestaurentCard resData={restaurent} />
+            <RestaurentCard resData={restaurent.info} />
           </Link>
         ))}
       </div>

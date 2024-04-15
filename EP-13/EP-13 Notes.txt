@@ -3,7 +3,7 @@
 
    🔰Part-1
 
-    🔆What are the differetn type of testing that developer can do?
+    🔆What are the different type of testing that developer can do?
      ans:- 
       1.Manual Testing :- Where we can each and every component in our application.
       The Drawbacks of Manual Testing is - If small changes are made, that will impact the in our whole application. 
@@ -198,9 +198,10 @@
       );
 
       const cartItems = screen.getByText(/0/);
+
       💠  Note :- above this is Call rejex is a sequence of character that define a search pattern, it can used to search, edit or manipulate the text and data.
 
-      💠 Assertion
+     //Assertion
       expect(cartItems).toBeInTheDocument();
     });
 
@@ -219,11 +220,224 @@
 
       const logoutEvent = screen.getByRole("button", { name: "Logout" });
 
-      💠 Assertion
+      //Assertion
       expect(logoutEvent).toBeInTheDocument();
     });
 
     💠Note :- Jest only can understand react and jsx. jest can not understand redux-toolkit, react-router-dom
+
+  🔰Part-6
+
+  🔆How to pass props in test cases to check the particular name are present or not..!
+   ans :- as step wise goes but the main thing is we have to pass the "MOCK_DATA" at the Props value
+
+   🔆Steps to create mock data
+
+    - Create a separate folder name mocks
+    - In that mocks folder, we will be storing the mock data, as json format.
+
+  💫Example :- 
+        
+        import { render, screen } from "@testing-library/react";
+        import RestaurentCard from "../RestaurentCard";
+        import MOCK_DATA from "../mocks/resCardMock.json";
+        import "@testing-library/jest-dom";
+
+        test("Should render Restaurent Card Component with props Data", () => {
+          render(<RestaurentCard resData={MOCK_DATA} />);
+
+          const name = screen.getByText("Food Peddler Sandwiches");
+
+          //   Assertion
+          expect(name).toBeInTheDocument();
+        });
+
+
+
+
+  🔰Part-7
+   
+   🔆How to run test cases on automatic after every time when i save my file.
+   🔷Note :- 
+        1st - Write in script section in package.json file
+
+        2nd - "watch-test" : "jest --watch", //after that save it 
+
+        3rd - In terminal run --> npm run --watch
+
+        4th - after every save the test cases run automatically.
+
+
+
+    🔆Integration testing on Body component.
+
+     ans :- Step-1
+
+    💫Example :-
+
+        import Body from "../Body";
+        import { render } from "@testing-library/react";
+        import MOCK_DATA from "../mocks/mockResListData.json";
+
+        global.fetch = jest.fn(() => {
+          return Promise.resolve({
+            json: () => {
+              return Promise.resolve(MOCK_DATA); //Here we are passing a mock data .
+            },
+          });
+        });
+
+          i) fetch as same as we fatching data..
+          ii) and the jest.fn function is also returned Promise as we returning bellow.
+          iii) Promise resolved with a Json
+          iv)json again a function that also returns a promise.resolved. and we have to pass the MOCK_DATA.
+          
+        test("Should render the Body Component", () => {
+          render(<Body />);
+        });
+
+    Step-2
+
+    - after run the test command, we will get an warning message,
+    - that,When testing, code that causes React state updates should be wrapped into act(...)
+    - the act function  basically comes from -> "react-dom/test-utils"
+    - act(()=>{....render()})  
+    - the act function returns a promise
+    
+    💫Example :-
+
+        import Body from "../Body";
+        import { render } from "@testing-library/react";
+        import MOCK_DATA from "../mocks/mockResListData.json";
+        import {BrowserRouter} from "react-router-dom";
+
+        global.fetch = jest.fn(() => {
+          return Promise.resolve({
+            json: () => {
+              return Promise.resolve(MOCK_DATA); //Here we are passing a mock data .
+            },
+          });
+        });
+
+          i) fetch as same as we fatching data..
+          ii) and the jest.fn function is also returned Promise as we returning bellow.
+          iii) Promise resolved with a Json
+          iv)json again a function that also returns a promise.resolved. and we have to pass the MOCK_DATA.
+          
+        test("Should render the Body Component", async () => {
+          await act( async()=>{
+              <BrowserRouter>
+              <Body/>
+              </BrowserRouter>
+          })
+        });
+
+    🔆Search Restaurent List for.. search input..
+
+     ans:- 
+     
+     🔷Note -
+        - 1st, we have to fetch TestId for of the Input box Component and RestaurentCard. 
+        - 2nd, In input box and RestaurentCard component we have to provide an test id.
+        - Example :- data-testid= "searchId" for Input Box and  data-testid= "searchId" for RestaurentCard.  
+
+
+      💫Example:- 
+        global.fetch = jest.fn(() => {
+          return Promise.resolve({
+            json: () => {
+              return Promise.resolve(MOCK_DATA); //Here we are passing a mock data .
+            },
+          });
+        });
+
+        test("Should search Restaurent List for ... Search input", async () => {
+          await act(async () =>
+            render(
+              <BrowserRouter>
+                <Body />
+              </BrowserRouter>
+            )
+          );
+
+          const cardsBeforeSearch = screen.getAllByTestId("resCard");
+          expect(cardsBeforeSearch.length).toBe(9);
+
+          const searchBtn = screen.getByRole("button", { name: "Search" });
+
+          const searchdInput = screen.getByTestId("searchInput");
+
+          fireEvent.change(searchdInput, { target: { value: "pizza" } });
+
+          fireEvent.click(searchBtn);
+
+          const cardsAfterSearch = screen.getAllByTestId("resCard");
+
+          expect(cardsAfterSearch.length).toBe(2);
+        });
+
+    🔆Filterd Toprated Restaurent List after Clicking Toprated Restaurent Button
+
+     and:- 
+
+      🔷Note:- 
+
+       
+    💫Example:- 
+             
+      it("Should Filterd Toprated Restaurent List after Clicking Toprated Restaurent Button", async () => {
+        await act(async () =>
+          render(
+            <BrowserRouter>
+              <Body />
+            </BrowserRouter>
+          )
+        );
+      
+        const cardsBeforeSearch = screen.getAllByTestId("resCard");
+        expect(cardsBeforeSearch.length).toBe(9);
+      
+        const topRatedBtn = screen.getByRole("button", {
+          name: "TopRated Restaurent",
+        });
+      
+        fireEvent.click(topRatedBtn);
+      
+        const cardsAfterFilter = screen.getAllByTestId("resCard");
+        expect(cardsAfterFilter.length).toBe(5);
+      });
+
+  🔰Part-9
+
+    🔆Some Fetures of function Provided by jest which can be used in 
+
+      # In describe function we can Provide 4 types of function.
+
+      1 - beforeAll
+      2 - beforeEach
+      3 - afterAll
+      4 - afterEach
+
+      💫Example :- 
+
+       describe("First Testing in Contact Us Page", () => {
+
+       - beforeAll(() => {
+          console.log("Calling Before All test");
+        });
+
+       - beforeEach(() => {
+          console.log("💥Calling Before Each test");
+        });
+
+       - afterAll(() => {
+          console.log("💦Calling After All test");
+        });
+
+       - afterEach(() => {
+          console.log("💚Calling After Each test");
+        });
+
 
 
 

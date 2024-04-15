@@ -2,8 +2,9 @@ import React, { useContext } from "react";
 import { RestaurantImg } from "../utils/Constants";
 import UserContext from "../utils/userContext";
 
-const RestaurentCard = ({ resData }) => {
-  const { slaString } = resData?.info.sla;
+const RestaurentCard = (props) => {
+  const { resData } = props;
+  const { slaString } = resData.sla;
   const { loggedInUser } = useContext(UserContext);
 
   const {
@@ -15,10 +16,15 @@ const RestaurentCard = ({ resData }) => {
     cuisines,
     locality,
     areaName,
-  } = resData?.info;
+  } = resData;
+
+  // console.log(resData);
 
   return (
-    <div className="res-card w-[285px] min-h-[340px] px-2 py-2 bg-gray-200 rounded-md">
+    <div
+      data-testid="resCard"
+      className="res-card w-[285px] min-h-[340px] px-2 py-2 bg-gray-200 rounded-md"
+    >
       <div className="res-img object-cover">
         <img
           className="card-img w-full h-[150px] rounded-md shadow-lg"
