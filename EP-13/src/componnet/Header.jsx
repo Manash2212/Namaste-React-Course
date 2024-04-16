@@ -65,7 +65,9 @@ const Header = () => {
           <li className=" cursor-pointer  ">
             <Link to="/cart" className="flex items-center hover:text-blue-800">
               <TiShoppingCart size={35} />
-              <span className="text-md font-bold ">{cartItems.length}</span>
+              <span className="text-md font-bold ">
+                Items-{cartItems.length}
+              </span>
             </Link>
           </li>
         </ul>

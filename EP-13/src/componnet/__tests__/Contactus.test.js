@@ -4,19 +4,19 @@ import "@testing-library/jest-dom";
 
 describe("First Testing in Contact Us Page", () => {
   beforeAll(() => {
-    console.log("Calling Before All test");
+    // console.log("Calling Before All test");
   });
 
   beforeEach(() => {
-    console.log("💥Calling Before Each test");
+    // console.log("💥Calling Before Each test");
   });
 
   afterAll(() => {
-    console.log("💦Calling After All test");
+    // console.log("💦Calling After All test");
   });
 
   afterEach(() => {
-    console.log("💚Calling After Each test");
+    // console.log("💚Calling After Each test");
   });
 
   it("should Contact us page loadig or not..!", () => {
